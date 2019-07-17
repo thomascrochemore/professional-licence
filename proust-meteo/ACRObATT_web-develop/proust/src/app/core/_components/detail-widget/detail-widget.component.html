@@ -1,0 +1,20 @@
+<div>
+    <button mat-button (click)="onClose()">
+        <clr-icon shape="undo"></clr-icon>
+    </button>
+    Détail du calcul de pondération
+
+    <mat-tab-group *ngIf="details && displayedColumns">
+        <mat-tab label="Tab">
+            <tab [data]="details" [displayedColumns]="displayedColumns"></tab>
+        </mat-tab>
+        <mat-tab label="Graph" class="mat_tab_graph">
+            <graphic
+                    [data]="details" class="graph_details">
+            </graphic>
+        </mat-tab>
+        <mat-tab label="Data" class="mat_tab_data">
+            <pre>{{details | json}}</pre>
+        </mat-tab>
+    </mat-tab-group>
+</div>

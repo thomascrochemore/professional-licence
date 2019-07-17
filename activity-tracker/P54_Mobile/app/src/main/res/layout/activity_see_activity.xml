@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewBackHome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lvSeeActivityProperties"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textViewProperties"
+        android:layout_toStartOf="@+id/textViewProperties"
+        android:onClick="backHome"
+        android:visibility="visible"
+        app:srcCompat="@drawable/icons8_list" />
+
+    <ImageView
+        android:id="@+id/imageViewBackHome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewProperties"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/labelTextViewSeeActivityName"
+        android:layout_toStartOf="@+id/textViewProperties"
+        android:onClick="backHome"
+        android:visibility="visible"
+        app:srcCompat="@drawable/icons8_move" />
+
+    <TextView
+        android:id="@+id/labelTextViewSeeActivityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/nom_activity"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textViewSeeActivityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewProperties"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/labelTextViewSeeActivityName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <ListView
+        android:id="@+id/lvSeeActivityProperties"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewProperties"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewProperties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/labelTextViewSeeActivityName"
+        android:layout_below="@+id/labelTextViewSeeActivityName"
+        android:layout_marginTop="13dp"
+        android:text="@string/properties_activity" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<resources>
+    <!-- headers -->
+    <string name="app_name">ActivityTracker</string>
+    <string name="app_name_user">MyActivityTracker</string>
+    <string name="app_signup">Sign up</string>
+    <string name="app_signin">Sign in</string>
+
+    <string name="app_all_activities">Activities</string>
+    <string name="app_all_users">Users</string>
+
+    <string name="app_my_sessions">My sessions</string>
+
+    <string name="app_user_account">Profile</string>
+    <string name="app_user_sessions">This user\'s sessions</string>
+    <string name="app_activity_sessions">This activitie\'s sessions</string>
+
+    <string name="app_create_activity">Create an activity</string>
+    <string name="app_create_session">Create a session</string>
+
+    <string name="app_see_activity">This activity</string>
+    <string name="app_see_session">This session</string>
+
+    <string name="app_modify_session">Modify the sessions</string>
+
+    <string name="navigation_drawer_open">Open navbar</string>
+    <string name="navigation_drawer_close">Close navbar</string>
+
+    <!-- authentification -->
+    <string name="signIn">Sign in</string>
+    <string name="signUp">Sign up</string>
+    <string name="signOut">Sign out</string>
+
+    <!-- textes templates -->
+    <string name="welcome">Welcome {user} !</string>
+
+    <!-- menu user -->
+    <string name="my_activities">Activities</string>
+    <string name="my_sessions">My sessions</string>
+    <string name="my_account">My account</string>
+
+    <!-- titles pages -->
+    <string name="all_users">Users</string>
+    <string name="all_activities">Activities</string>
+    <string name="all_sessions">Sessions</string>
+
+    <string name="create_session">Create a session</string>
+    <string name="create_activity">Create an activity</string>
+
+    <string name="update_account">Modify my account</string>
+    <string name="update_session">Modify a session</string>
+    <string name="update_activity">Modify an activity</string>
+
+    <!-- buttons communs pour formulaires -->
+    <string name="create_object">Create</string>
+    <string name="update_object">Modify</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- formulaires auth -->
+    <string name="login">Login :</string>
+    <string name="lastname">Lastname :</string>
+    <string name="firstname">Firstname :</string>
+    <string name="passwd">Password :</string>
+    <string name="passwdConf">Confirm your password :</string>
+
+    <!-- voir onclick -->
+    <string name="see_profile">See the profile</string>
+    <string name="see_activity">See the activity</string>
+    <string name="see_session">See the session</string>
+    <string name="see_sessions">See the sessions</string>
+    <string name="modify_session">Modify the session</string>
+
+    <!-- formulaires session -->
+    <string name="nom_session">Session\'s name :</string>
+    <string name="date_session">Session\'s date</string>
+    <string name="session_activity">Activity :</string>
+    <string name="user_sessions">Its sessions : </string>
+
+    <!-- formulaires activity -->
+    <string name="nom_activity">Activity\'s name :</string>
+    <string name="date_activity">Activity\'s date :</string>
+    <string name="properties_activity">Session\'s properties : </string>
+
+    <!-- properties -->
+    <string name="activity_string">String</string>
+    <string name="activity_bool">Boolean </string>
+    <string name="activity_int">Integer </string>
+</resources>

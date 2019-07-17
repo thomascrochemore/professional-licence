@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayoutSignIn"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/signInTextPasswd"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInLabelPasswd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/signInTextLogin"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/signInTextPasswd"
+        android:layout_below="@+id/signInLabelLogin"
+        android:layout_marginTop="12dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@id/signInLabelLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/signInLabelPasswd"
+        android:layout_below="@+id/textViewConnexionTitle"
+        android:layout_marginTop="17dp"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@id/signInLabelPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/signInTextPasswd"
+        android:layout_below="@+id/signInTextLogin"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/passwd" />
+
+    <Button
+        android:id="@+id/signInButtonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/signInButtonSignIn"
+        android:layout_alignBottom="@+id/signInButtonSignIn"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="@string/cancel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/signInButtonSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:layout_marginStart="39dp"
+        android:layout_toEndOf="@+id/signInButtonCancel"
+        android:text="@string/signIn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/textViewConnexionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/signInLabelPasswd"
+        android:text="@string/app_signin"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/signInLabelLogin"
+        android:layout_alignStart="@+id/signInTextPasswd"
+        android:layout_alignTop="@+id/signInLabelLogin"
+        android:layout_toStartOf="@+id/signInLabelLogin"
+        app:srcCompat="@drawable/icons8_contacts" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signInTextPasswd"
+        android:layout_alignStart="@+id/signInTextPasswd"
+        android:layout_alignTop="@+id/signInLabelPasswd"
+        app:srcCompat="@drawable/icons8_key" />
+</RelativeLayout>

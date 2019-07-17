@@ -1,0 +1,86 @@
+<div class="content_body">
+    <img class="frog_img" src="../../../../assets/frog/frog_waterlily_composite.png">
+    <h3>Classement selon l'indice de confiance </h3>
+    <br>
+    <p class="texte_descr"> Choisissez par exemple <b>"Strasbourg"</b>, <b>"Température"</b> et <b>"OPENWEATHERMAP"</b>
+        et je vous afficherais un tableau avec un classement des délais de prévision par indice de confiance. Dans cet
+        exemple, plus l'indice de confiance est proche de 1, plus on peut compter sur la précision de la
+        <b>température</b> que renvoi <b>OPENWEATHERMAP</b> à <b>Strasbourg</b>.</p>
+    <br>
+    <br>
+    <mat-card class="basic-container">
+        <form>
+            <section class="form-block">
+                <div class="form-group">
+                    <label>Sélectionner 3 options</label>
+                    <clr-checkbox *ngFor="let filtre of filtres"
+                                  (clrCheckedChange)="addOption($event, filtre.text)"
+                                  [clrDisabled]="displayDropdowns['disabling'][filtre.text]"
+                                  [clrInline]="true">
+                        {{filtre.name}}
+
+                    </clr-checkbox>
+                </div>
+            </section>
+        </form>
+
+        <clr-dropdown *ngIf="displayDropdowns['checking']['cities']">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{location}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let city of locations" type="button"
+                        (click)="changeDropdown('location', $event.srcElement.innerText)" clrDropdownItem>{{city}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <clr-dropdown *ngIf="displayDropdowns['checking']['properties']">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{property}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let prop of properties" type="button"
+                        (click)="changeDropdown('property', $event.srcElement.innerText)" clrDropdownItem>{{prop}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <clr-dropdown *ngIf="displayDropdowns['checking']['apis']">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{api}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let api of apis" type="button"
+                        (click)="changeDropdown('api', $event.srcElement.innerText)"
+                        clrDropdownItem>{{api}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <clr-dropdown *ngIf="displayDropdowns['checking']['delays']">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{delay}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let del of delays" type="button" clrDropdownItem
+                        (click)="changeDropdown('delay', $event.srcElement.innerText)">{{del.display}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <button class="btn btn-primary" *ngIf="option_nbr === 3" (click)="search()">Valider</button>
+
+        <p *ngIf="data_null">Marceau n'a malheureusement rien trouvé avec les paramètres choisis :(</p>
+
+        <h3 *ngIf="display_tab_with_eval && !data_null">{{infos}}</h3>
+        <tab *ngIf="display_tab_with_eval && !data_null" [data]="data_table"
+             [displayedColumns]="displayedColumns"></tab>
+
+    </mat-card>
+
+</div>

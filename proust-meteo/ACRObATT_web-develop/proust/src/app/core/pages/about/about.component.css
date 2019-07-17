@@ -1,0 +1,48 @@
+.card_profil {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.img_card {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.img_card_marceau {
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 35%;
+}
+
+.about_cards {
+    display: block;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.context {
+    height: 60px;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.about {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -3;
+}

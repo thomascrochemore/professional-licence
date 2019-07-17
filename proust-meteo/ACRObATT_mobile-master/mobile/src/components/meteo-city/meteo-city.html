@@ -1,0 +1,47 @@
+<mat-card>
+
+    <h4>{{name}}</h4>
+    <mat-table #table [dataSource]="dataSource">
+
+        <!-- Caractéristiques -->
+        <ng-container matColumnDef="charac">
+            <mat-header-cell *matHeaderCellDef> Caractéristiques</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.charac}}</mat-cell>
+        </ng-container>
+
+        <!-- Temps réel -->
+        <ng-container matColumnDef="real">
+            <mat-header-cell *matHeaderCellDef> Temps réel</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.real}}</mat-cell>
+        </ng-container>
+
+        <!-- 6 h -->
+        <ng-container matColumnDef="six">
+            <mat-header-cell *matHeaderCellDef> 6 h</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.six}}</mat-cell>
+        </ng-container>
+
+        <!-- 12h -->
+        <ng-container matColumnDef="twelve">
+            <mat-header-cell *matHeaderCellDef> 12 h</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.twelve}}</mat-cell>
+        </ng-container>
+
+        <!-- 1 jour -->
+        <ng-container matColumnDef="one">
+            <mat-header-cell *matHeaderCellDef> 1 jour</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.one}}</mat-cell>
+        </ng-container>
+
+        <!-- 3 jours -->
+        <ng-container matColumnDef="three">
+            <mat-header-cell *matHeaderCellDef> 3 jours</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.three}}</mat-cell>
+        </ng-container>
+
+
+        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+
+        <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+    </mat-table>
+</mat-card>

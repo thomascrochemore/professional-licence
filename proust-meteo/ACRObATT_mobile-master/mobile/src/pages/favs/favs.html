@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      <ion-searchbar (ionInput)="getItems($event)" placeholder="ville"></ion-searchbar>
+    </ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="clearFavs()">
+            <ion-icon name="trash"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- affichage des villes -->
+  <ion-list>
+    <button ion-item (click)="addToFavs(item, city)" *ngFor="let city of currentCities">
+      <ion-avatar item-start>
+        <img src="assets/city/city-church.png" alt="your image">
+      </ion-avatar>
+      <h2>{{ city }}</h2>
+    </button>
+  </ion-list>
+  <!-- affichage variable en fonction des villes en favs -->
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let c of tabCities">
+        <!-- mini widget, onclick widget -->
+        <mini [ville]='c'></mini>
+        <ion-card #minicard color="red">
+          <ion-card-title text-center>
+            <!-- procéder de la même façon pour deleteFav -->
+            <p (click)="delete_fav(c)">
+              <ion-icon name="close" color="white"></ion-icon>
+            </p>
+          </ion-card-title>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewUserAccountLastname"
+        android:layout_alignStart="@+id/imageView14"
+        android:layout_alignTop="@+id/textViewUserAccountLastname"
+        android:layout_toStartOf="@+id/textViewUserAccountLastname"
+        app:srcCompat="@drawable/icons8_user" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editTextUserAccountLogin"
+        android:layout_toStartOf="@+id/textViewUserAccountLastname"
+        app:srcCompat="@drawable/icons8_contacts" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewUserAccountFirstname"
+        android:layout_alignStart="@+id/imageView13"
+        app:srcCompat="@drawable/icons8_user" />
+
+    <TextView
+        android:id="@+id/textViewUserAccountFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextUserAccountFirstname"
+        android:layout_alignBottom="@+id/editTextUserAccountFirstname"
+        android:layout_toStartOf="@+id/editTextUserAccountLastname"
+        android:text="@string/firstname" />
+
+    <TextView
+        android:id="@+id/textViewUserAccountLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextUserAccountLastname"
+        android:layout_alignBottom="@+id/editTextUserAccountLastname"
+        android:layout_alignStart="@+id/textViewUserAccountFirstname"
+        android:text="@string/lastname" />
+
+    <TextView
+        android:id="@+id/textViewUserAccountLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_toEndOf="@+id/imageView13"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/editTextUserAccountLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextUserAccountFirstname"
+        android:layout_alignStart="@+id/editTextUserAccountFirstname"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/editTextUserAccountLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonUserAccountViewSessions"
+        android:layout_alignStart="@+id/buttonUserAccountViewSessions"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/editTextUserAccountFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextUserAccountLastname"
+        android:layout_alignStart="@+id/editTextUserAccountLastname"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonUserAccountViewSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toolbarUserAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:onClick="goSessions"
+        android:text="@string/user_sessions"
+        android:textSize="12sp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarUserAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textViewUserAccountLogin"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="45dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/users" />
+</RelativeLayout>

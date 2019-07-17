@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayoutMyAccount"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewMyAccounLastname"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_alignTop="@+id/textViewMyAccounFirstname"
+        android:layout_toStartOf="@+id/textViewMyAccounFirstname"
+        app:srcCompat="@drawable/icons8_user" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewMyAccounLastname"
+        android:layout_alignTop="@+id/textViewMyAccounLastname"
+        android:layout_toStartOf="@+id/textViewMyAccounLastname"
+        app:srcCompat="@drawable/icons8_user" />
+
+    <ImageView
+        android:id="@+id/imgMyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textMyAccountTitle"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/user" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewMyAccounFirstname"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_alignTop="@+id/textViewMyAccountLogin"
+        app:srcCompat="@drawable/icons8_contacts" />
+
+    <TextView
+        android:id="@+id/textMyAccountTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="81dp"
+        android:layout_toEndOf="@+id/imageView18"
+        android:text="Mon compte"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewMyAccounFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewMyAccountLogin"
+        android:layout_below="@+id/textViewMyAccountLogin"
+        android:layout_marginTop="18dp"
+        android:text="Mon prénom :" />
+    <TextView
+        android:id="@+id/textViewMyAccounLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewMyAccounFirstname"
+        android:layout_below="@+id/textViewMyAccounFirstname"
+        android:layout_marginTop="15dp"
+        android:text="Mon nom :" />
+
+    <TextView
+        android:id="@+id/textViewMyAccountLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgMyAccount"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="35dp"
+        android:layout_toStartOf="@+id/editTextMyAccountFirstname"
+        android:text="Mon pseudo :" />
+
+    <TextView
+        android:id="@+id/editTextMyAccountLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMyAccountLogin"
+        android:layout_alignBottom="@+id/textViewMyAccountLogin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/editTextMyAccountLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMyAccounLastname"
+        android:layout_alignBottom="@+id/textViewMyAccounLastname"
+        android:layout_alignStart="@+id/editTextMyAccountFirstname"
+        android:ems="10"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/editTextMyAccountFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMyAccounFirstname"
+        android:layout_alignBottom="@+id/textViewMyAccounFirstname"
+        android:layout_alignStart="@+id/editTextMyAccountLogin"
+        android:ems="10"
+        android:inputType="text" />
+    <!--<Button
+        android:id="@+id/buttonMyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:text="@string/update_object" />-->
+</RelativeLayout>

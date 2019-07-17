@@ -1,0 +1,166 @@
+{
+	"info": {
+		"name": "RGPD",
+		"_postman_id": "3321d1b9-bc20-d87d-c885-998f6c7060a3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "processing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://springrgpd-rec.azurewebsites.net/gdpr/v1/application/3/processing/1038",
+					"protocol": "https",
+					"host": [
+						"springrgpd-rec",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"gdpr",
+						"v1",
+						"application",
+						"3",
+						"processing",
+						"1038"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "consent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://springrgpd-rec.azurewebsites.net/gdpr/v1/application/3/consent",
+					"protocol": "https",
+					"host": [
+						"springrgpd-rec",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"gdpr",
+						"v1",
+						"application",
+						"3",
+						"consent"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Post consent",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"consent\": true,\r\n\t\"natural_person\": {\r\n\t\t\"first_name\": \"Dupond\",\r\n\t\t\"last_name\": \"Jean\",\r\n\t\t\"mail\": \"jean.dupond@test.com\",\r\n\t\t\"category\": {\r\n                \"id_natural_person_category\": 3}\r\n\t},\r\n\t\"consent_type\": {\r\n\t\t\"id_consent_type\": 1\r\n\t}\r\n}\r\n{\"natural_person\":{\"category\":{\"id_natural_person_category\":3},\"firstName\":\"test\",\"lastName\":\"test\",\"email\":\"test@test.com\"},\"consent_type\":{\"id_consent_type\":1}}"
+				},
+				"url": {
+					"raw": "https://springrgpd-rec.azurewebsites.net/gdpr/v1/application/3/processing/1038/consent",
+					"protocol": "https",
+					"host": [
+						"springrgpd-rec",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"gdpr",
+						"v1",
+						"application",
+						"3",
+						"processing",
+						"1038",
+						"consent"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://springrgpd-rec.azurewebsites.net/gdpr/v1/application/3/processing/1038/consent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://springrgpd-rec.azurewebsites.net/gdpr/v1/application/3/processing/1038/consent",
+					"protocol": "https",
+					"host": [
+						"springrgpd-rec",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"gdpr",
+						"v1",
+						"application",
+						"3",
+						"processing",
+						"1038",
+						"consent"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/processing/id/consent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"consent\": true,\r\n\t\"natural_person\": {\r\n\t\t\"category\": {\r\n\t\t\t\"id_natural_person_category\": 3\r\n\t\t},\r\n\t\t\"firstName\": \"test\",\r\n\t\t\"lastName\": \"est\",\r\n\t\t\"email\": \"test\"\r\n\t},\r\n\t\"consent_type\": {\r\n\t\t\"id_consent_type\": 1\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "https://springrgpd-rec.azurewebsites.net/gdpr/v1/application/3/processing/1039/consent",
+					"protocol": "https",
+					"host": [
+						"springrgpd-rec",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"gdpr",
+						"v1",
+						"application",
+						"3",
+						"processing",
+						"1039",
+						"consent"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

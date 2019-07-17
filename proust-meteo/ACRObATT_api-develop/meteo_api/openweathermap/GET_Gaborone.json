@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": 25.91,
+    "lat": -24.66
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 302.15,
+    "pressure": 1015,
+    "humidity": 42,
+    "temp_min": 302.15,
+    "temp_max": 302.15
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 60
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1518091200,
+  "sys": {
+    "type": 1,
+    "id": 6642,
+    "message": 0.0023,
+    "country": "BW",
+    "sunrise": 1518062325,
+    "sunset": 1518109320
+  },
+  "id": 933773,
+  "name": "Gaborone",
+  "cod": 200
+}

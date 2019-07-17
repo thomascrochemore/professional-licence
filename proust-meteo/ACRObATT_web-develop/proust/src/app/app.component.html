@@ -1,0 +1,57 @@
+<header class="header-nav color_size">
+    <div class="branding">
+        <a class="nav-link">
+            <img routerLink='/' class="frog" src="../assets/frog/logo_white.png">
+            <div class="header-nav">
+                <a routerLink="/evaluation" class="active nav-link"><span
+                        class="nav-text">Evaluation des APIs</span></a>
+            </div>
+
+            <div class="header-nav">
+                <clr-dropdown>
+                    <button class="nav-icon" clrDropdownTrigger>
+                        <a class="active nav-link"><span class="nav-text">Exploration des données +</span>
+                        </a>
+
+
+                    </button>
+                    <clr-dropdown-menu *clrIfOpen clrPosition="bottom-left">
+                        <!--   <a routerLink="/realtime" clrDropdownItem>Temps réel</a>-->
+                        <a routerLink="/forecasts" clrDropdownItem>Prévisions</a>
+                        <a routerLink="/distance" clrDropdownItem>Distance</a>
+                        <a routerLink="/scores" clrDropdownItem>Scores</a>
+                    </clr-dropdown-menu>
+                </clr-dropdown>
+            </div>
+        </a>
+    </div>
+
+    <div class="header-actions">
+
+        <clr-dropdown>
+            <button class="home" clrDropdownTrigger>
+                <clr-icon shape="help-info"></clr-icon>
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu *clrIfOpen clrPosition="bottom-right">
+                <a routerLink="/about" clrDropdownItem>A propos</a>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+        <clr-dropdown>
+            <button class="nav-icon" clrDropdownTrigger>
+                <clr-icon shape="user"></clr-icon>
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu *clrIfOpen clrPosition="bottom-right">
+                <a routerLink="/signin" clrDropdownItem>Connexion</a>
+                <a routerLink="/signup" clrDropdownItem>Inscription</a>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+    </div>
+</header>
+
+<router-outlet></router-outlet>
+
+<div class="footer">
+    <span class="copyright">&#9400; by Overkill Legacy 2018</span>
+</div>

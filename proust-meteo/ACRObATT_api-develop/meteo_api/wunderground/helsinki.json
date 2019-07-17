@@ -1,0 +1,48 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+		, "results": [
+		{
+		"name": "Helsinki",
+		"city": "Helsinki",
+		"state": "",
+		"country": "FI",
+		"country_iso3166":"FI",
+		"country_name":"Finland",
+		"zmw": "00000.2.02934",
+		"l": "/q/zmw:00000.2.02934"
+		}
+		,
+		{
+		"name": "Helsinki",
+		"city": "Helsinki",
+		"state": "",
+		"country": "FI",
+		"country_iso3166":"FI",
+		"country_name":"Finland",
+		"zmw": "00000.44.02964",
+		"l": "/q/zmw:00000.44.02964"
+		}
+		,
+		{
+		"name": "Helsinki",
+		"city": "Helsinki",
+		"state": "",
+		"country": "FI",
+		"country_iso3166":"FI",
+		"country_name":"Finland",
+		"zmw": "00000.1.02974",
+		"l": "/q/zmw:00000.1.02974"
+		}
+		]
+	}
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayoutCreateSession"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- dans une boucle : liste des activités avec boutons "voir activité" et supprimer -->
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewCreateSessionDate"
+        android:layout_alignEnd="@+id/imageView21"
+        android:layout_alignTop="@+id/textViewCreateSessionDate"
+        app:srcCompat="@drawable/icons8_calendar" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewCreateSessionActivitySession"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textViewCreateSessionActivitySession"
+        app:srcCompat="@drawable/icons8_running" />
+
+    <EditText
+        android:id="@+id/editTextCreateSessionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewCreateSessionDate"
+        android:layout_below="@+id/textViewCreateSessionDate"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textViewCreateSessionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/date_session" />
+
+    <ListView
+        android:id="@+id/listCreateSessionProperties"
+        android:layout_width="fill_parent"
+        android:layout_height="387dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView22"
+        android:layout_marginTop="62dp" />
+
+    <TextView
+        android:id="@+id/textViewCreateSessionActivitySession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewCreateSessionDate"
+        android:layout_below="@+id/editTextCreateSessionDate"
+        android:layout_marginTop="31dp"
+        android:text="@string/session_activity" />
+
+    <Button
+        android:id="@+id/buttonCreateSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCreateSessionDate"
+        android:layout_toEndOf="@+id/textViewCreateSessionDate"
+        android:text="Button" />
+</RelativeLayout>

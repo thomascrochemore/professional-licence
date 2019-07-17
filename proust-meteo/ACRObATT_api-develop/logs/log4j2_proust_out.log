@@ -1,0 +1,704 @@
+[FATAL] 2018-05-11 20:15:02.946 [HibernateUtils.getSessionFactory:32] - Failed to initialize SessionFactory : null: 
+
+[FATAL] 2018-05-11 20:15:03.009 [HibernateUtils.getSessionFactory:32] - Failed to initialize SessionFactory : null: 
+
+[DEBUG] 2018-05-11 20:15:03.045 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 20:15:03.196 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[INFO ] 2018-05-11 20:16:44.982 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-11 20:17:05.186 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 20:17:05.192 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[DEBUG] 2018-05-11 20:17:06.141 [WeatherDataDAO.getAverageForecastsDistance:354] - select distinct generatedAlias0.api, generatedAlias0.avg_rt, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 ) order by generatedAlias0.date_req asc
+[ERROR] 2018-05-11 20:17:06.541 [SqlExceptionHelper.logExceptions:131] - Champ 'distancevi0_.avg_rt' inconnu dans field list
+[INFO ] 2018-05-11 20:20:36.515 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-11 20:20:52.123 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 20:20:52.127 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[DEBUG] 2018-05-11 20:20:53.349 [WeatherDataDAO.getAverageForecastsDistance:354] - select distinct generatedAlias0.api, generatedAlias0.avg_rt, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 ) order by generatedAlias0.date_req asc
+[ERROR] 2018-05-11 20:20:53.512 [SqlExceptionHelper.logExceptions:131] - Champ 'distancevi0_.avg_rt' inconnu dans field list
+[INFO ] 2018-05-11 20:56:14.122 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-11 20:56:26.341 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 20:56:26.345 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[INFO ] 2018-05-11 20:59:00.126 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-11 20:59:11.860 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 20:59:11.864 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[DEBUG] 2018-05-11 20:59:12.574 [WeatherDataDAO.getAverageForecastsDistance:354] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 ) order by generatedAlias0.date_req asc
+[ERROR] 2018-05-11 20:59:12.770 [SqlExceptionHelper.logExceptions:131] - Expression #1 of ORDER BY clause is not in SELECT list, references column 'distancevi0_.date_req' which is not in SELECT list; this is incompatible with DISTINCT
+[INFO ] 2018-05-11 21:08:16.243 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-11 21:08:27.032 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 21:08:27.037 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[DEBUG] 2018-05-11 21:08:27.979 [WeatherDataDAO.getAverageForecastsDistance:354] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-11 21:10:23.613 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-11 21:10:41.369 [WeatherDataDAO.getScoreByCriteria:359] - start distance
+[DEBUG] 2018-05-11 21:10:41.369 [WeatherDataDAO.getAverageForecastsDistance:321] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 21:10:41.375 [WeatherDataDAO.getAverageForecastsDistance:323] - Null criteria = [0]
+[DEBUG] 2018-05-11 21:10:42.476 [WeatherDataDAO.getAverageForecastsDistance:354] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-11 21:12:11.046 [WeatherDataDAO.getScoreByCriteria:361] - end distance
+[INFO ] 2018-05-11 21:12:11.047 [WeatherDataDAO.getScoreByCriteria:362] - start score
+[INFO ] 2018-05-11 21:12:11.083 [WeatherDataDAO.getScoreByCriteria:374] - end score
+[INFO ] 2018-05-11 21:12:11.083 [WeatherDataDAO.getScoreByCriteria:375] - 0
+[INFO ] 2018-05-11 21:23:20.899 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-11 21:23:31.172 [WeatherDataDAO.getScoreByCriteria:360] - start distance
+[DEBUG] 2018-05-11 21:23:31.173 [WeatherDataDAO.getAverageForecastsDistance:322] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-11 21:23:31.178 [WeatherDataDAO.getAverageForecastsDistance:324] - Null criteria = [0]
+[DEBUG] 2018-05-11 21:23:32.049 [WeatherDataDAO.getAverageForecastsDistance:355] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-11 21:24:56.233 [WeatherDataDAO.getScoreByCriteria:362] - end distance
+[INFO ] 2018-05-11 21:24:56.233 [WeatherDataDAO.getScoreByCriteria:363] - start score
+[INFO ] 2018-05-11 21:24:56.247 [WeatherDataDAO.getScoreByCriteria:375] - end score
+[INFO ] 2018-05-11 21:24:56.248 [WeatherDataDAO.getScoreByCriteria:376] - 0
+[INFO ] 2018-05-12 02:15:27.027 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 02:15:39.956 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-12 02:15:39.957 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-12 02:15:39.962 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[DEBUG] 2018-05-12 02:15:40.938 [WeatherDataDAO.getAverageForecastsDistance:356] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-12 02:17:07.092 [WeatherDataDAO.getScoreByCriteria:363] - end distance
+[INFO ] 2018-05-12 02:17:07.093 [WeatherDataDAO.getScoreByCriteria:364] - start score
+[INFO ] 2018-05-12 02:17:07.127 [WeatherDataDAO.getScoreByCriteria:370] - end score
+[INFO ] 2018-05-12 02:17:07.128 [WeatherDataDAO.getScoreByCriteria:371] - 0
+[INFO ] 2018-05-12 02:19:12.401 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 02:19:24.765 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-12 02:19:24.766 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-12 02:19:24.771 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[DEBUG] 2018-05-12 02:19:25.581 [WeatherDataDAO.getAverageForecastsDistance:356] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-12 02:20:58.171 [WeatherDataDAO.getScoreByCriteria:363] - end distance
+[INFO ] 2018-05-12 02:20:58.172 [WeatherDataDAO.getScoreByCriteria:364] - start score
+[INFO ] 2018-05-12 02:20:58.184 [WeatherDataDAO.getScoreByCriteria:370] - end score
+[INFO ] 2018-05-12 02:21:03.184 [WeatherDataDAO.getScoreByCriteria:376] - 0
+[INFO ] 2018-05-12 02:21:21.357 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 02:21:32.226 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-12 02:21:32.227 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-12 02:21:32.231 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[DEBUG] 2018-05-12 02:21:33.424 [WeatherDataDAO.getAverageForecastsDistance:356] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-12 02:22:56.670 [WeatherDataDAO.getScoreByCriteria:363] - end distance
+[INFO ] 2018-05-12 02:22:56.670 [WeatherDataDAO.getScoreByCriteria:364] - start score
+[INFO ] 2018-05-12 02:22:56.672 [WeatherDataDAO.getScoreByCriteria:365] - 0
+[INFO ] 2018-05-12 02:22:56.682 [WeatherDataDAO.getScoreByCriteria:371] - end score
+[INFO ] 2018-05-12 02:23:01.684 [WeatherDataDAO.getScoreByCriteria:377] - 0
+[INFO ] 2018-05-12 02:30:08.212 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 02:30:22.052 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-12 02:30:22.053 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-12 02:30:22.058 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[INFO ] 2018-05-12 02:40:23.113 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 17:50:48.936 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 17:51:37.179 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 17:55:35.391 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[FATAL] 2018-05-12 18:00:18.862 [HibernateUtils.getSessionFactory:32] - Failed to initialize SessionFactory : null: 
+
+[FATAL] 2018-05-12 18:00:18.908 [HibernateUtils.getSessionFactory:32] - Failed to initialize SessionFactory : null: 
+
+[INFO ] 2018-05-12 18:00:18.955 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-12 18:00:18.956 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-12 18:00:18.978 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[INFO ] 2018-05-12 18:00:41.533 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-12 19:20:39.962 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-12 19:20:39.965 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Mon Jan 01 00:00:00 CET 2018, city=Strasbourg, datetime_to=Mon Jan 01 00:00:00 CET 2018}
+[DEBUG] 2018-05-12 19:20:39.969 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[DEBUG] 2018-05-12 19:20:40.796 [WeatherDataDAO.getAverageForecastsDistance:356] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-12 19:20:40.888 [WeatherDataDAO.getScoreByCriteria:363] - end distance
+[INFO ] 2018-05-12 19:20:40.889 [WeatherDataDAO.getScoreByCriteria:364] - start score
+[INFO ] 2018-05-12 19:20:40.891 [WeatherDataDAO.getScoreByCriteria:365] - 0
+[INFO ] 2018-05-12 19:20:40.944 [WeatherDataDAO.getScoreByCriteria:371] - end score
+[INFO ] 2018-05-12 19:20:45.947 [WeatherDataDAO.getScoreByCriteria:377] - 0
+[INFO ] 2018-05-13 00:32:17.190 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-13 00:32:26.242 [WeatherDataDAO.getScoreByCriteria:361] - start distance
+[DEBUG] 2018-05-13 00:32:26.242 [WeatherDataDAO.getAverageForecastsDistance:323] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 00:32:26.246 [WeatherDataDAO.getAverageForecastsDistance:325] - Null criteria = [0]
+[DEBUG] 2018-05-13 00:32:26.554 [WeatherDataDAO.getAverageForecastsDistance:356] - select distinct generatedAlias0.api, generatedAlias0.value_realtime, generatedAlias0.value_forecast, generatedAlias0.distance from DistanceView as generatedAlias0 where ( generatedAlias0.city=:param0 ) and ( generatedAlias0.property=:param1 ) and ( generatedAlias0.date_req between :param2 and :param3 )
+[INFO ] 2018-05-13 00:32:26.598 [WeatherDataDAO.getScoreByCriteria:363] - end distance
+[INFO ] 2018-05-13 00:32:26.598 [WeatherDataDAO.getScoreByCriteria:364] - start score
+[INFO ] 2018-05-13 00:32:26.599 [WeatherDataDAO.getScoreByCriteria:365] - 0
+[INFO ] 2018-05-13 00:32:26.609 [WeatherDataDAO.getScoreByCriteria:371] - end score
+[INFO ] 2018-05-13 00:32:31.610 [WeatherDataDAO.getScoreByCriteria:377] - 0
+[INFO ] 2018-05-13 00:44:06.838 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[INFO ] 2018-05-13 01:35:30.565 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:35:38.246 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:35:38.249 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:35:38.854 [ComparativeDataDAO.getScoreData:319] - select distinct generatedAlias0.api, generatedAlias0.value_rt, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) order by generatedAlias0.date_req asc
+[ERROR] 2018-05-13 01:35:38.924 [SqlExceptionHelper.logExceptions:131] - La table 'stats_values_distance.sql' n'existe pas
+[INFO ] 2018-05-13 01:37:43.163 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:37:49.804 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:37:49.809 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:37:50.138 [ComparativeDataDAO.getScoreData:319] - select distinct generatedAlias0.api, generatedAlias0.value_rt, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) order by generatedAlias0.date_req asc
+[ERROR] 2018-05-13 01:37:50.210 [SqlExceptionHelper.logExceptions:131] - In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'proust_db.comparativ0_.api'; this is incompatible with sql_mode=only_full_group_by
+[INFO ] 2018-05-13 01:41:47.507 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:41:55.259 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:41:55.262 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:41:55.610 [ComparativeDataDAO.getScoreData:325] - select distinct generatedAlias0.api, generatedAlias0.value_rt, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay order by generatedAlias0.date_req asc
+[ERROR] 2018-05-13 01:41:55.654 [SqlExceptionHelper.logExceptions:131] - Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'proust_db.comparativ0_.value_rt' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[INFO ] 2018-05-13 01:44:18.992 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:44:27.076 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:44:27.079 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:44:27.389 [ComparativeDataDAO.getScoreData:327] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, generatedAlias0.value_rt, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay order by generatedAlias0.date_req asc
+[ERROR] 2018-05-13 01:44:27.437 [SqlExceptionHelper.logExceptions:131] - Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'proust_db.comparativ0_.value_rt' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[INFO ] 2018-05-13 01:45:41.627 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:45:49.370 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:45:49.373 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:45:49.692 [ComparativeDataDAO.getScoreData:326] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay order by generatedAlias0.date_req asc
+[ERROR] 2018-05-13 01:45:49.731 [SqlExceptionHelper.logExceptions:131] - Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'proust_db.comparativ0_.date_req' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[INFO ] 2018-05-13 01:46:21.995 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:46:30.342 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:46:30.345 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:46:30.650 [ComparativeDataDAO.getScoreData:325] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 01:47:22.150 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:47:28.984 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:47:28.987 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:47:29.304 [ComparativeDataDAO.getScoreData:325] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 01:47:51.880 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:47:59.617 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:47:59.620 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:47:59.928 [ComparativeDataDAO.getScoreData:325] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( generatedAlias0.location=:param0 ) and ( generatedAlias0.prop=:param1 ) and ( generatedAlias0.delay=24 ) and ( generatedAlias0.date_req between :param2 and :param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 01:58:47.616 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:58:55.452 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:58:55.455 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:58:55.763 [ComparativeDataDAO.getScoreData:341] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 01:59:26.329 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 01:59:33.420 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 01:59:33.424 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 01:59:33.722 [ComparativeDataDAO.getScoreData:341] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 01:59:58.181 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:00:05.284 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:00:05.287 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:00:05.594 [ComparativeDataDAO.getScoreData:341] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:00:25.433 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:00:32.715 [ComparativeDataDAO.getScoreData:286] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:00:32.718 [ComparativeDataDAO.getScoreData:288] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:00:33.017 [ComparativeDataDAO.getScoreData:341] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:36:18.703 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:36:26.369 [ComparativeDataDAO.getScoreData:288] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:36:26.372 [ComparativeDataDAO.getScoreData:290] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:36:26.694 [ComparativeDataDAO.getScoreData:343] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/avg(generatedAlias0.distance)) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:38:38.938 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:38:46.587 [ComparativeDataDAO.getScoreData:288] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:38:46.590 [ComparativeDataDAO.getScoreData:290] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:38:46.954 [ComparativeDataDAO.getScoreData:343] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/coalesce(avg(generatedAlias0.distance), 0.01D)) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:41:34.891 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:41:42.027 [ComparativeDataDAO.getScoreData:288] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:41:42.030 [ComparativeDataDAO.getScoreData:290] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:41:42.369 [ComparativeDataDAO.getScoreData:343] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/coalesce(avg(generatedAlias0.distance), 0.01D)) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:41:42.454 [ComparativeDataDAO.getIndexData:356] - 0.06927044952100221
+[INFO ] 2018-05-13 02:43:47.043 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:43:54.395 [ComparativeDataDAO.getScoreData:288] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:43:54.397 [ComparativeDataDAO.getScoreData:290] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:43:54.714 [ComparativeDataDAO.getScoreData:343] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, (1/coalesce(avg(generatedAlias0.distance), 0.01D)) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:43:54.795 [ComparativeDataDAO.getIndexData:358] - 0.06927044952100221
+[INFO ] 2018-05-13 02:43:54.795 [ComparativeDataDAO.getIndexData:358] - 0.06322229775662815
+[INFO ] 2018-05-13 02:43:54.796 [ComparativeDataDAO.getIndexData:358] - 0.06423491626519844
+[INFO ] 2018-05-13 02:43:54.796 [ComparativeDataDAO.getIndexData:358] - 0.04962323102370888
+[INFO ] 2018-05-13 02:43:54.796 [ComparativeDataDAO.getIndexData:358] - 0.3255813953488372
+[INFO ] 2018-05-13 02:43:54.797 [ComparativeDataDAO.getIndexData:358] - 0.34285714285714286
+[INFO ] 2018-05-13 02:43:54.797 [ComparativeDataDAO.getIndexData:358] - 0.3333333333333333
+[INFO ] 2018-05-13 02:43:54.797 [ComparativeDataDAO.getIndexData:358] - 0.45454545454545453
+[INFO ] 2018-05-13 02:43:54.797 [ComparativeDataDAO.getIndexData:358] - 1.160919540229885
+[INFO ] 2018-05-13 02:43:54.798 [ComparativeDataDAO.getIndexData:358] - 1.1785714285714286
+[INFO ] 2018-05-13 02:43:54.798 [ComparativeDataDAO.getIndexData:358] - 1.125
+[INFO ] 2018-05-13 02:43:54.798 [ComparativeDataDAO.getIndexData:358] - 1.0833333333333333
+[INFO ] 2018-05-13 02:43:54.798 [ComparativeDataDAO.getIndexData:358] - 1.0476190476190477
+[INFO ] 2018-05-13 02:43:54.798 [ComparativeDataDAO.getIndexData:358] - 1.0
+[INFO ] 2018-05-13 02:43:54.798 [ComparativeDataDAO.getIndexData:358] - 0.7368421052631579
+[INFO ] 2018-05-13 02:43:54.799 [ComparativeDataDAO.getIndexData:358] - 0.8333333333333334
+[INFO ] 2018-05-13 02:43:54.799 [ComparativeDataDAO.getIndexData:358] - 0.3470769224531185
+[INFO ] 2018-05-13 02:43:54.799 [ComparativeDataDAO.getIndexData:358] - 0.3204686420134137
+[INFO ] 2018-05-13 02:43:54.799 [ComparativeDataDAO.getIndexData:358] - 0.2855394652683719
+[INFO ] 2018-05-13 02:43:54.800 [ComparativeDataDAO.getIndexData:358] - 0.19284336784728387
+[INFO ] 2018-05-13 02:43:54.800 [ComparativeDataDAO.getIndexData:358] - 0.17016654623027308
+[INFO ] 2018-05-13 02:43:54.801 [ComparativeDataDAO.getIndexData:358] - 0.15767165862080545
+[INFO ] 2018-05-13 02:43:54.801 [ComparativeDataDAO.getIndexData:358] - 0.14939707585156084
+[INFO ] 2018-05-13 02:43:54.801 [ComparativeDataDAO.getIndexData:358] - 0.11474713143653155
+[INFO ] 2018-05-13 02:43:54.801 [ComparativeDataDAO.getIndexData:358] - 0.05348516218081436
+[INFO ] 2018-05-13 02:43:54.802 [ComparativeDataDAO.getIndexData:358] - 0.06552828175026681
+[INFO ] 2018-05-13 02:43:54.802 [ComparativeDataDAO.getIndexData:358] - 0.06033805031446541
+[INFO ] 2018-05-13 02:43:54.802 [ComparativeDataDAO.getIndexData:358] - 0.05014025245441795
+[INFO ] 2018-05-13 02:43:54.802 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.802 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.803 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.803 [ComparativeDataDAO.getIndexData:358] - 1.6666666666666667
+[INFO ] 2018-05-13 02:43:54.803 [ComparativeDataDAO.getIndexData:358] - 1.129251700680272
+[INFO ] 2018-05-13 02:43:54.804 [ComparativeDataDAO.getIndexData:358] - 1.1071428571428572
+[INFO ] 2018-05-13 02:43:54.804 [ComparativeDataDAO.getIndexData:358] - 1.0410958904109588
+[INFO ] 2018-05-13 02:43:54.804 [ComparativeDataDAO.getIndexData:358] - 0.877906976744186
+[INFO ] 2018-05-13 02:43:54.804 [ComparativeDataDAO.getIndexData:358] - 2.7142857142857144
+[INFO ] 2018-05-13 02:43:54.805 [ComparativeDataDAO.getIndexData:358] - 2.3333333333333335
+[INFO ] 2018-05-13 02:43:54.805 [ComparativeDataDAO.getIndexData:358] - 1.75
+[INFO ] 2018-05-13 02:43:54.805 [ComparativeDataDAO.getIndexData:358] - 1.0
+[INFO ] 2018-05-13 02:43:54.805 [ComparativeDataDAO.getIndexData:358] - 0.022963660384604987
+[INFO ] 2018-05-13 02:43:54.806 [ComparativeDataDAO.getIndexData:358] - 0.022975568078404344
+[INFO ] 2018-05-13 02:43:54.806 [ComparativeDataDAO.getIndexData:358] - 0.022526191299305415
+[INFO ] 2018-05-13 02:43:54.806 [ComparativeDataDAO.getIndexData:358] - 0.021652330180059937
+[INFO ] 2018-05-13 02:43:54.806 [ComparativeDataDAO.getIndexData:358] - 0.21702452382153747
+[INFO ] 2018-05-13 02:43:54.807 [ComparativeDataDAO.getIndexData:358] - 0.28396740387161373
+[INFO ] 2018-05-13 02:43:54.808 [ComparativeDataDAO.getIndexData:358] - 0.24927329106972448
+[INFO ] 2018-05-13 02:43:54.809 [ComparativeDataDAO.getIndexData:358] - 0.18097371478100097
+[INFO ] 2018-05-13 02:43:54.809 [ComparativeDataDAO.getIndexData:358] - 0.13533276554172785
+[INFO ] 2018-05-13 02:43:54.809 [ComparativeDataDAO.getIndexData:358] - 0.13110749479894523
+[INFO ] 2018-05-13 02:43:54.812 [ComparativeDataDAO.getIndexData:358] - 0.11645373721309121
+[INFO ] 2018-05-13 02:43:54.812 [ComparativeDataDAO.getIndexData:358] - 0.10277972426692843
+[INFO ] 2018-05-13 02:43:54.813 [ComparativeDataDAO.getIndexData:358] - 0.06581439393939394
+[INFO ] 2018-05-13 02:43:54.813 [ComparativeDataDAO.getIndexData:358] - 0.08100147275405008
+[INFO ] 2018-05-13 02:43:54.813 [ComparativeDataDAO.getIndexData:358] - 0.07087428867046043
+[INFO ] 2018-05-13 02:43:54.814 [ComparativeDataDAO.getIndexData:358] - 0.05422753430721558
+[INFO ] 2018-05-13 02:43:54.814 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.814 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.815 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.815 [ComparativeDataDAO.getIndexData:358] - 1.0
+[INFO ] 2018-05-13 02:43:54.822 [ComparativeDataDAO.getIndexData:358] - 0.9009900990099009
+[INFO ] 2018-05-13 02:43:54.823 [ComparativeDataDAO.getIndexData:358] - 0.7923728813559322
+[INFO ] 2018-05-13 02:43:54.824 [ComparativeDataDAO.getIndexData:358] - 0.7172995780590717
+[INFO ] 2018-05-13 02:43:54.825 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.825 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.825 [ComparativeDataDAO.getIndexData:358] - null
+[INFO ] 2018-05-13 02:43:54.826 [ComparativeDataDAO.getIndexData:358] - 0.31408880286086976
+[INFO ] 2018-05-13 02:43:54.826 [ComparativeDataDAO.getIndexData:358] - 0.2789046653059716
+[INFO ] 2018-05-13 02:43:54.826 [ComparativeDataDAO.getIndexData:358] - 0.23553683486994906
+[INFO ] 2018-05-13 02:43:54.827 [ComparativeDataDAO.getIndexData:358] - 0.1661354851478382
+[INFO ] 2018-05-13 02:43:54.827 [ComparativeDataDAO.getIndexData:358] - 0.11686564655779977
+[INFO ] 2018-05-13 02:43:54.828 [ComparativeDataDAO.getIndexData:358] - 0.11749626164416982
+[INFO ] 2018-05-13 02:43:54.828 [ComparativeDataDAO.getIndexData:358] - 0.09096945565237884
+[INFO ] 2018-05-13 02:43:54.829 [ComparativeDataDAO.getIndexData:358] - 0.0926451125874265
+[INFO ] 2018-05-13 02:46:16.690 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:46:24.248 [ComparativeDataDAO.getScoreData:288] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:46:24.251 [ComparativeDataDAO.getScoreData:290] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:46:24.630 [ComparativeDataDAO.getScoreData:343] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:46:24.721 [ComparativeDataDAO.getIndexData:358] - 0.06927044952100221
+[INFO ] 2018-05-13 02:46:24.721 [ComparativeDataDAO.getIndexData:358] - 0.06322229775662815
+[INFO ] 2018-05-13 02:46:24.722 [ComparativeDataDAO.getIndexData:358] - 0.06423491626519844
+[INFO ] 2018-05-13 02:46:24.722 [ComparativeDataDAO.getIndexData:358] - 0.04962323102370888
+[INFO ] 2018-05-13 02:46:24.722 [ComparativeDataDAO.getIndexData:358] - 0.3255813953488372
+[INFO ] 2018-05-13 02:46:24.722 [ComparativeDataDAO.getIndexData:358] - 0.34285714285714286
+[INFO ] 2018-05-13 02:46:24.723 [ComparativeDataDAO.getIndexData:358] - 0.3333333333333333
+[INFO ] 2018-05-13 02:46:24.723 [ComparativeDataDAO.getIndexData:358] - 0.45454545454545453
+[INFO ] 2018-05-13 02:46:24.724 [ComparativeDataDAO.getIndexData:358] - 1.160919540229885
+[INFO ] 2018-05-13 02:46:24.724 [ComparativeDataDAO.getIndexData:358] - 1.1785714285714286
+[INFO ] 2018-05-13 02:46:24.724 [ComparativeDataDAO.getIndexData:358] - 1.125
+[INFO ] 2018-05-13 02:46:24.724 [ComparativeDataDAO.getIndexData:358] - 1.0833333333333333
+[INFO ] 2018-05-13 02:46:24.725 [ComparativeDataDAO.getIndexData:358] - 1.0476190476190477
+[INFO ] 2018-05-13 02:46:24.725 [ComparativeDataDAO.getIndexData:358] - 1.0
+[INFO ] 2018-05-13 02:46:24.725 [ComparativeDataDAO.getIndexData:358] - 0.7368421052631579
+[INFO ] 2018-05-13 02:46:24.725 [ComparativeDataDAO.getIndexData:358] - 0.8333333333333334
+[INFO ] 2018-05-13 02:46:24.726 [ComparativeDataDAO.getIndexData:358] - 0.3470769224531185
+[INFO ] 2018-05-13 02:46:24.726 [ComparativeDataDAO.getIndexData:358] - 0.3204686420134137
+[INFO ] 2018-05-13 02:46:24.727 [ComparativeDataDAO.getIndexData:358] - 0.2855394652683719
+[INFO ] 2018-05-13 02:46:24.727 [ComparativeDataDAO.getIndexData:358] - 0.19284336784728387
+[INFO ] 2018-05-13 02:46:24.727 [ComparativeDataDAO.getIndexData:358] - 0.17016654623027308
+[INFO ] 2018-05-13 02:46:24.727 [ComparativeDataDAO.getIndexData:358] - 0.15767165862080545
+[INFO ] 2018-05-13 02:46:24.728 [ComparativeDataDAO.getIndexData:358] - 0.14939707585156084
+[INFO ] 2018-05-13 02:46:24.728 [ComparativeDataDAO.getIndexData:358] - 0.11474713143653155
+[INFO ] 2018-05-13 02:46:24.728 [ComparativeDataDAO.getIndexData:358] - 0.05348516218081436
+[INFO ] 2018-05-13 02:46:24.728 [ComparativeDataDAO.getIndexData:358] - 0.06552828175026681
+[INFO ] 2018-05-13 02:46:24.729 [ComparativeDataDAO.getIndexData:358] - 0.06033805031446541
+[INFO ] 2018-05-13 02:46:24.729 [ComparativeDataDAO.getIndexData:358] - 0.05014025245441795
+[INFO ] 2018-05-13 02:46:24.729 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.730 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.730 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.731 [ComparativeDataDAO.getIndexData:358] - 1.6666666666666667
+[INFO ] 2018-05-13 02:46:24.731 [ComparativeDataDAO.getIndexData:358] - 1.129251700680272
+[INFO ] 2018-05-13 02:46:24.731 [ComparativeDataDAO.getIndexData:358] - 1.1071428571428572
+[INFO ] 2018-05-13 02:46:24.731 [ComparativeDataDAO.getIndexData:358] - 1.0410958904109588
+[INFO ] 2018-05-13 02:46:24.732 [ComparativeDataDAO.getIndexData:358] - 0.877906976744186
+[INFO ] 2018-05-13 02:46:24.732 [ComparativeDataDAO.getIndexData:358] - 2.7142857142857144
+[INFO ] 2018-05-13 02:46:24.732 [ComparativeDataDAO.getIndexData:358] - 2.3333333333333335
+[INFO ] 2018-05-13 02:46:24.733 [ComparativeDataDAO.getIndexData:358] - 1.75
+[INFO ] 2018-05-13 02:46:24.733 [ComparativeDataDAO.getIndexData:358] - 1.0
+[INFO ] 2018-05-13 02:46:24.733 [ComparativeDataDAO.getIndexData:358] - 0.022963660384604987
+[INFO ] 2018-05-13 02:46:24.734 [ComparativeDataDAO.getIndexData:358] - 0.022975568078404344
+[INFO ] 2018-05-13 02:46:24.734 [ComparativeDataDAO.getIndexData:358] - 0.022526191299305415
+[INFO ] 2018-05-13 02:46:24.734 [ComparativeDataDAO.getIndexData:358] - 0.021652330180059937
+[INFO ] 2018-05-13 02:46:24.735 [ComparativeDataDAO.getIndexData:358] - 0.21702452382153747
+[INFO ] 2018-05-13 02:46:24.735 [ComparativeDataDAO.getIndexData:358] - 0.28396740387161373
+[INFO ] 2018-05-13 02:46:24.735 [ComparativeDataDAO.getIndexData:358] - 0.24927329106972448
+[INFO ] 2018-05-13 02:46:24.738 [ComparativeDataDAO.getIndexData:358] - 0.18097371478100097
+[INFO ] 2018-05-13 02:46:24.738 [ComparativeDataDAO.getIndexData:358] - 0.13533276554172785
+[INFO ] 2018-05-13 02:46:24.739 [ComparativeDataDAO.getIndexData:358] - 0.13110749479894523
+[INFO ] 2018-05-13 02:46:24.739 [ComparativeDataDAO.getIndexData:358] - 0.11645373721309121
+[INFO ] 2018-05-13 02:46:24.739 [ComparativeDataDAO.getIndexData:358] - 0.10277972426692843
+[INFO ] 2018-05-13 02:46:24.740 [ComparativeDataDAO.getIndexData:358] - 0.06581439393939394
+[INFO ] 2018-05-13 02:46:24.740 [ComparativeDataDAO.getIndexData:358] - 0.08100147275405008
+[INFO ] 2018-05-13 02:46:24.741 [ComparativeDataDAO.getIndexData:358] - 0.07087428867046043
+[INFO ] 2018-05-13 02:46:24.741 [ComparativeDataDAO.getIndexData:358] - 0.05422753430721558
+[INFO ] 2018-05-13 02:46:24.742 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.742 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.743 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.743 [ComparativeDataDAO.getIndexData:358] - 1.0
+[INFO ] 2018-05-13 02:46:24.746 [ComparativeDataDAO.getIndexData:358] - 0.9009900990099009
+[INFO ] 2018-05-13 02:46:24.746 [ComparativeDataDAO.getIndexData:358] - 0.7923728813559322
+[INFO ] 2018-05-13 02:46:24.746 [ComparativeDataDAO.getIndexData:358] - 0.7172995780590717
+[INFO ] 2018-05-13 02:46:24.747 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.748 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.748 [ComparativeDataDAO.getIndexData:358] - 0.01
+[INFO ] 2018-05-13 02:46:24.748 [ComparativeDataDAO.getIndexData:358] - 0.31408880286086976
+[INFO ] 2018-05-13 02:46:24.748 [ComparativeDataDAO.getIndexData:358] - 0.2789046653059716
+[INFO ] 2018-05-13 02:46:24.749 [ComparativeDataDAO.getIndexData:358] - 0.23553683486994906
+[INFO ] 2018-05-13 02:46:24.749 [ComparativeDataDAO.getIndexData:358] - 0.1661354851478382
+[INFO ] 2018-05-13 02:46:24.749 [ComparativeDataDAO.getIndexData:358] - 0.11686564655779977
+[INFO ] 2018-05-13 02:46:24.750 [ComparativeDataDAO.getIndexData:358] - 0.11749626164416982
+[INFO ] 2018-05-13 02:46:24.750 [ComparativeDataDAO.getIndexData:358] - 0.09096945565237884
+[INFO ] 2018-05-13 02:46:24.750 [ComparativeDataDAO.getIndexData:358] - 0.0926451125874265
+[INFO ] 2018-05-13 02:46:24.755 [ComparativeDataDAO.getIndexData:361] - 32.14762562271618
+[INFO ] 2018-05-13 02:47:16.057 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 02:47:23.770 [ComparativeDataDAO.getScoreData:288] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 02:47:23.773 [ComparativeDataDAO.getScoreData:290] - Null criteria = [0]
+[DEBUG] 2018-05-13 02:47:24.081 [ComparativeDataDAO.getScoreData:343] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 02:47:24.170 [ComparativeDataDAO.getIndexData:357] - 32.14762562271618
+[INFO ] 2018-05-13 03:01:46.945 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 03:01:52.955 [ComparativeDataDAO.getScoreData:283] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:01:52.958 [ComparativeDataDAO.getScoreData:285] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:01:53.271 [ComparativeDataDAO.getScoreData:338] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:01:53.370 [ComparativeDataDAO.getIndexData:352] - 32.14762562271618
+[DEBUG] 2018-05-13 03:01:53.371 [ComparativeDataDAO.getIndexData:353] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:01:53.372 [ComparativeDataDAO.getIndexData:355] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:01:53.378 [ComparativeDataDAO.getIndexData:409] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 32.14762562271618D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/32.14762562271618D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:02:31.992 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 03:02:38.275 [ComparativeDataDAO.getScoreData:283] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:02:38.278 [ComparativeDataDAO.getScoreData:285] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:02:38.591 [ComparativeDataDAO.getScoreData:338] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:02:38.663 [ComparativeDataDAO.getIndexData:352] - 3.737677016300122
+[DEBUG] 2018-05-13 03:02:38.664 [ComparativeDataDAO.getIndexData:353] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:02:38.665 [ComparativeDataDAO.getIndexData:355] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:02:38.672 [ComparativeDataDAO.getIndexData:409] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 3.737677016300122D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/3.737677016300122D) from ComparativeData as generatedAlias0 where ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:06:46.557 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 03:06:55.363 [ComparativeDataDAO.getScoreData:283] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:06:55.367 [ComparativeDataDAO.getScoreData:285] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:06:55.687 [ComparativeDataDAO.getScoreData:338] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:06:55.756 [ComparativeDataDAO.getIndexData:352] - 3.737677016300122
+[DEBUG] 2018-05-13 03:06:55.757 [ComparativeDataDAO.getIndexData:353] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:06:55.758 [ComparativeDataDAO.getIndexData:355] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:06:55.765 [ComparativeDataDAO.getIndexData:409] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 3.737677016300122D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/3.737677016300122D) from ComparativeData as generatedAlias0 where ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:07:11.728 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-13 03:07:18.949 [ComparativeDataDAO.getScoreData:283] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:07:18.952 [ComparativeDataDAO.getScoreData:285] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:07:19.270 [ComparativeDataDAO.getScoreData:338] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-13 03:07:19.341 [ComparativeDataDAO.getIndexData:352] - 0.9209651756309496
+[DEBUG] 2018-05-13 03:07:19.341 [ComparativeDataDAO.getIndexData:353] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-13 03:07:19.342 [ComparativeDataDAO.getIndexData:355] - Null criteria = [0]
+[DEBUG] 2018-05-13 03:07:19.351 [ComparativeDataDAO.getIndexData:409] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-14 21:50:04.852 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\couty\Documents\lp\acrobatt\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-14 21:50:15.112 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, is_forecast=true, city=Strasbourg}
+[DEBUG] 2018-05-14 21:50:15.627 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-14 21:50:15.740 [ComparativeDataDAO.getIndexData:340] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-14 21:50:15.758 [ComparativeDataDAO.getIndexData:342] - Null criteria = [0]
+[DEBUG] 2018-05-14 21:50:15.759 [ComparativeDataDAO.getScoreData:283] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-14 21:50:15.760 [ComparativeDataDAO.getScoreData:285] - Null criteria = [0]
+[DEBUG] 2018-05-14 21:50:15.779 [ComparativeDataDAO.getScoreData:328] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-14 21:50:16.146 [ComparativeDataDAO.getIndexData:350] - Calculated score sum = 21.289285947188034
+[DEBUG] 2018-05-14 21:50:16.153 [ComparativeDataDAO.getIndexData:390] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.289285947188034D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.289285947188034D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:22:08.027 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\LittleZak\Documents\Devoirs\LP-CDED\ACRObATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-16 23:22:10.683 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-16 23:22:10.686 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:22:10.687 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:22:10.924 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-16 23:22:10.975 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:22:10.976 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:22:10.976 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:22:10.977 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:22:10.990 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:22:11.007 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.10355654196779
+[DEBUG] 2018-05-16 23:22:11.010 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.10355654196779D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.10355654196779D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-16 23:22:11.024 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 6, 21.10355654196779, 0.0024939672534675435]
+[DEBUG] 2018-05-16 23:22:11.024 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 12, 21.10355654196779, 0.0024615780683575755]
+[DEBUG] 2018-05-16 23:22:11.024 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 24, 21.10355654196779, 0.010530083959085184]
+[DEBUG] 2018-05-16 23:22:11.024 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 6, 21.10355654196779, 0.06318050375451109]
+[DEBUG] 2018-05-16 23:22:11.024 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-16 23:22:11.025 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-16 23:22:11.025 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 6, 21.10355654196779, 0.014995372658662279]
+[DEBUG] 2018-05-16 23:22:11.025 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 12, 21.10355654196779, 0.01707581137624547]
+[DEBUG] 2018-05-16 23:22:11.025 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 24, 21.10355654196779, 0.014359205346881293]
+[DEBUG] 2018-05-16 23:22:11.025 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 6, 21.10355654196779, 0.011175796692394902]
+[DEBUG] 2018-05-16 23:22:11.026 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 12, 21.10355654196779, 0.013254650905270665]
+[DEBUG] 2018-05-16 23:22:11.026 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 24, 21.10355654196779, 0.018582501777517108]
+[DEBUG] 2018-05-16 23:22:11.026 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 6, 21.10355654196779, 0.002575292272602355]
+[DEBUG] 2018-05-16 23:22:11.026 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 12, 21.10355654196779, 0.002527220150180444]
+[DEBUG] 2018-05-16 23:22:11.026 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 24, 21.10355654196779, 0.0020602338180818838]
+[DEBUG] 2018-05-16 23:22:11.027 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 6, 21.10355654196779, 0.1895415112635333]
+[DEBUG] 2018-05-16 23:22:11.027 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 12, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-16 23:22:11.027 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 6, 21.10355654196779, 0.0031879290502159485]
+[DEBUG] 2018-05-16 23:22:11.027 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 12, 21.10355654196779, 0.0034275138133547708]
+[DEBUG] 2018-05-16 23:22:11.028 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 24, 21.10355654196779, 0.00557475017491286]
+[DEBUG] 2018-05-16 23:22:11.028 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 6, 21.10355654196779, 0.006372428460820776]
+[DEBUG] 2018-05-16 23:22:11.028 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 12, 21.10355654196779, 0.014591340214392314]
+[DEBUG] 2018-05-16 23:22:11.028 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 24, 21.10355654196779, 0.01738912923242967]
+[DEBUG] 2018-05-16 23:22:11.028 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 6, 21.10355654196779, 0.018466632278983198]
+[DEBUG] 2018-05-16 23:22:11.028 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 12, 21.10355654196779, 0.012412672767842529]
+[DEBUG] 2018-05-16 23:22:11.029 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 24, 21.10355654196779, 0.04786401753476413]
+[DEBUG] 2018-05-16 23:22:11.029 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 6, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-16 23:22:11.029 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-16 23:22:11.029 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-16 23:22:11.029 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 6, 21.10355654196779, 5.0016231597934695E-5]
+[DEBUG] 2018-05-16 23:22:11.030 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 12, 21.10355654196779, 5.014325694802469E-5]
+[DEBUG] 2018-05-16 23:22:11.030 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 24, 21.10355654196779, 5.1061829542977724E-5]
+[DEBUG] 2018-05-16 23:22:11.031 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 6, 21.10355654196779, 0.028545408461191312]
+[DEBUG] 2018-05-16 23:22:11.032 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 12, 21.10355654196779, 0.01662644847815371]
+[DEBUG] 2018-05-16 23:22:11.032 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 24, 21.10355654196779, 0.016062839353399194]
+[DEBUG] 2018-05-16 23:22:11.032 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 6, 21.10355654196779, 0.00696843791410049]
+[DEBUG] 2018-05-16 23:22:11.032 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 12, 21.10355654196779, 0.006769339687983332]
+[DEBUG] 2018-05-16 23:22:11.032 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 24, 21.10355654196779, 0.004307761619625757]
+[DEBUG] 2018-05-16 23:22:11.036 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:22:11.037 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:22:11.037 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:22:11.037 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:22:11.046 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:22:11.056 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-16 23:22:11.060 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-16 23:22:11.073 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:22:11.073 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:22:11.080 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:26:06.995 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\LittleZak\Documents\Devoirs\LP-CDED\ACRObATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-16 23:26:09.833 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-16 23:26:09.836 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:26:09.836 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:26:10.086 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-16 23:26:10.120 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:26:10.121 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:26:10.121 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:26:10.121 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:26:10.132 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:26:10.153 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.10355654196779
+[DEBUG] 2018-05-16 23:26:10.157 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.10355654196779D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.10355654196779D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-16 23:26:10.173 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 6, 21.10355654196779, 0.0024939672534675435]
+[DEBUG] 2018-05-16 23:26:10.173 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 12, 21.10355654196779, 0.0024615780683575755]
+[DEBUG] 2018-05-16 23:26:10.173 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 24, 21.10355654196779, 0.010530083959085184]
+[DEBUG] 2018-05-16 23:26:10.173 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 6, 21.10355654196779, 0.06318050375451109]
+[DEBUG] 2018-05-16 23:26:10.173 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-16 23:26:10.174 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-16 23:26:10.174 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 6, 21.10355654196779, 0.014995372658662279]
+[DEBUG] 2018-05-16 23:26:10.174 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 12, 21.10355654196779, 0.01707581137624547]
+[DEBUG] 2018-05-16 23:26:10.174 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 24, 21.10355654196779, 0.014359205346881293]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 6, 21.10355654196779, 0.011175796692394902]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 12, 21.10355654196779, 0.013254650905270665]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 24, 21.10355654196779, 0.018582501777517108]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 6, 21.10355654196779, 0.002575292272602355]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 12, 21.10355654196779, 0.002527220150180444]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 24, 21.10355654196779, 0.0020602338180818838]
+[DEBUG] 2018-05-16 23:26:10.175 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 6, 21.10355654196779, 0.1895415112635333]
+[DEBUG] 2018-05-16 23:26:10.176 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 12, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-16 23:26:10.176 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 6, 21.10355654196779, 0.0031879290502159485]
+[DEBUG] 2018-05-16 23:26:10.176 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 12, 21.10355654196779, 0.0034275138133547708]
+[DEBUG] 2018-05-16 23:26:10.176 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 24, 21.10355654196779, 0.00557475017491286]
+[DEBUG] 2018-05-16 23:26:10.176 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 6, 21.10355654196779, 0.006372428460820776]
+[DEBUG] 2018-05-16 23:26:10.176 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 12, 21.10355654196779, 0.014591340214392314]
+[DEBUG] 2018-05-16 23:26:10.177 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 24, 21.10355654196779, 0.01738912923242967]
+[DEBUG] 2018-05-16 23:26:10.177 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 6, 21.10355654196779, 0.018466632278983198]
+[DEBUG] 2018-05-16 23:26:10.177 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 12, 21.10355654196779, 0.012412672767842529]
+[DEBUG] 2018-05-16 23:26:10.177 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 24, 21.10355654196779, 0.04786401753476413]
+[DEBUG] 2018-05-16 23:26:10.177 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 6, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-16 23:26:10.177 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-16 23:26:10.178 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-16 23:26:10.178 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 6, 21.10355654196779, 5.0016231597934695E-5]
+[DEBUG] 2018-05-16 23:26:10.178 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 12, 21.10355654196779, 5.014325694802469E-5]
+[DEBUG] 2018-05-16 23:26:10.178 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 24, 21.10355654196779, 5.1061829542977724E-5]
+[DEBUG] 2018-05-16 23:26:10.180 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 6, 21.10355654196779, 0.028545408461191312]
+[DEBUG] 2018-05-16 23:26:10.180 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 12, 21.10355654196779, 0.01662644847815371]
+[DEBUG] 2018-05-16 23:26:10.180 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 24, 21.10355654196779, 0.016062839353399194]
+[DEBUG] 2018-05-16 23:26:10.180 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 6, 21.10355654196779, 0.00696843791410049]
+[DEBUG] 2018-05-16 23:26:10.180 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 12, 21.10355654196779, 0.006769339687983332]
+[DEBUG] 2018-05-16 23:26:10.180 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 24, 21.10355654196779, 0.004307761619625757]
+[DEBUG] 2018-05-16 23:26:10.185 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:26:10.185 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:26:10.185 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:26:10.185 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:26:10.189 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:26:10.202 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-16 23:26:10.207 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-16 23:26:10.220 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:26:10.220 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:26:10.224 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:34:23.440 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\LittleZak\Documents\Devoirs\LP-CDED\ACRObATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-16 23:34:26.255 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-16 23:34:26.258 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:34:26.259 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:34:26.507 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-16 23:34:26.543 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:34:26.544 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:34:26.544 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-16 23:34:26.545 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:34:26.557 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:34:26.575 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.10355654196779
+[DEBUG] 2018-05-16 23:34:26.579 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.10355654196779D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.10355654196779D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-16 23:34:26.592 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 6, 21.10355654196779, 0.0024939672534675435]
+[DEBUG] 2018-05-16 23:34:26.593 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 12, 21.10355654196779, 0.0024615780683575755]
+[DEBUG] 2018-05-16 23:34:26.593 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 24, 21.10355654196779, 0.010530083959085184]
+[DEBUG] 2018-05-16 23:34:26.593 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 6, 21.10355654196779, 0.06318050375451109]
+[DEBUG] 2018-05-16 23:34:26.593 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-16 23:34:26.593 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-16 23:34:26.593 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 6, 21.10355654196779, 0.014995372658662279]
+[DEBUG] 2018-05-16 23:34:26.594 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 12, 21.10355654196779, 0.01707581137624547]
+[DEBUG] 2018-05-16 23:34:26.594 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 24, 21.10355654196779, 0.014359205346881293]
+[DEBUG] 2018-05-16 23:34:26.594 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 6, 21.10355654196779, 0.011175796692394902]
+[DEBUG] 2018-05-16 23:34:26.594 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 12, 21.10355654196779, 0.013254650905270665]
+[DEBUG] 2018-05-16 23:34:26.594 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 24, 21.10355654196779, 0.018582501777517108]
+[DEBUG] 2018-05-16 23:34:26.594 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 6, 21.10355654196779, 0.002575292272602355]
+[DEBUG] 2018-05-16 23:34:26.595 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 12, 21.10355654196779, 0.002527220150180444]
+[DEBUG] 2018-05-16 23:34:26.595 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 24, 21.10355654196779, 0.0020602338180818838]
+[DEBUG] 2018-05-16 23:34:26.595 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 6, 21.10355654196779, 0.1895415112635333]
+[DEBUG] 2018-05-16 23:34:26.595 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 12, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-16 23:34:26.595 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 6, 21.10355654196779, 0.0031879290502159485]
+[DEBUG] 2018-05-16 23:34:26.596 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 12, 21.10355654196779, 0.0034275138133547708]
+[DEBUG] 2018-05-16 23:34:26.596 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 24, 21.10355654196779, 0.00557475017491286]
+[DEBUG] 2018-05-16 23:34:26.596 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 6, 21.10355654196779, 0.006372428460820776]
+[DEBUG] 2018-05-16 23:34:26.596 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 12, 21.10355654196779, 0.014591340214392314]
+[DEBUG] 2018-05-16 23:34:26.597 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 24, 21.10355654196779, 0.01738912923242967]
+[DEBUG] 2018-05-16 23:34:26.597 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 6, 21.10355654196779, 0.018466632278983198]
+[DEBUG] 2018-05-16 23:34:26.597 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 12, 21.10355654196779, 0.012412672767842529]
+[DEBUG] 2018-05-16 23:34:26.597 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 24, 21.10355654196779, 0.04786401753476413]
+[DEBUG] 2018-05-16 23:34:26.597 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 6, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-16 23:34:26.598 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-16 23:34:26.598 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-16 23:34:26.598 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 6, 21.10355654196779, 5.0016231597934695E-5]
+[DEBUG] 2018-05-16 23:34:26.598 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 12, 21.10355654196779, 5.014325694802469E-5]
+[DEBUG] 2018-05-16 23:34:26.598 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 24, 21.10355654196779, 5.1061829542977724E-5]
+[DEBUG] 2018-05-16 23:34:26.600 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 6, 21.10355654196779, 0.028545408461191312]
+[DEBUG] 2018-05-16 23:34:26.600 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 12, 21.10355654196779, 0.01662644847815371]
+[DEBUG] 2018-05-16 23:34:26.601 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 24, 21.10355654196779, 0.016062839353399194]
+[DEBUG] 2018-05-16 23:34:26.601 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 6, 21.10355654196779, 0.00696843791410049]
+[DEBUG] 2018-05-16 23:34:26.601 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 12, 21.10355654196779, 0.006769339687983332]
+[DEBUG] 2018-05-16 23:34:26.601 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 24, 21.10355654196779, 0.004307761619625757]
+[DEBUG] 2018-05-16 23:34:26.606 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:34:26.607 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:34:26.607 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:34:26.607 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:34:26.613 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-16 23:34:26.623 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-16 23:34:26.627 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-16 23:34:26.640 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-16 23:34:26.640 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-16 23:34:26.644 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 00:05:16.981 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\LittleZak\Documents\Devoirs\LP-CDED\ACRObATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-17 00:05:19.819 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-17 00:05:19.822 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-17 00:05:19.822 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 00:05:20.072 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-17 00:05:20.108 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 00:05:20.109 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 00:05:20.109 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 00:05:20.110 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 00:05:20.121 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 00:05:20.144 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.10355654196779
+[DEBUG] 2018-05-17 00:05:20.148 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.10355654196779D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.10355654196779D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 00:05:20.165 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 6, 21.10355654196779, 0.0024939672534675435]
+[DEBUG] 2018-05-17 00:05:20.165 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 12, 21.10355654196779, 0.0024615780683575755]
+[DEBUG] 2018-05-17 00:05:20.166 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, humidity, 24, 21.10355654196779, 0.010530083959085184]
+[DEBUG] 2018-05-17 00:05:20.166 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 6, 21.10355654196779, 0.06318050375451109]
+[DEBUG] 2018-05-17 00:05:20.166 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-17 00:05:20.166 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-17 00:05:20.166 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 6, 21.10355654196779, 0.014995372658662279]
+[DEBUG] 2018-05-17 00:05:20.167 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 12, 21.10355654196779, 0.01707581137624547]
+[DEBUG] 2018-05-17 00:05:20.167 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, temperature, 24, 21.10355654196779, 0.014359205346881293]
+[DEBUG] 2018-05-17 00:05:20.167 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 6, 21.10355654196779, 0.011175796692394902]
+[DEBUG] 2018-05-17 00:05:20.167 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 12, 21.10355654196779, 0.013254650905270665]
+[DEBUG] 2018-05-17 00:05:20.168 [WidgetDataService.getOptimalData:64] - indexes = [APIXU, wind_speed, 24, 21.10355654196779, 0.018582501777517108]
+[DEBUG] 2018-05-17 00:05:20.168 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 6, 21.10355654196779, 0.002575292272602355]
+[DEBUG] 2018-05-17 00:05:20.168 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 12, 21.10355654196779, 0.002527220150180444]
+[DEBUG] 2018-05-17 00:05:20.168 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, humidity, 24, 21.10355654196779, 0.0020602338180818838]
+[DEBUG] 2018-05-17 00:05:20.168 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 6, 21.10355654196779, 0.1895415112635333]
+[DEBUG] 2018-05-17 00:05:20.168 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, Nuages, 12, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-17 00:05:20.169 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 6, 21.10355654196779, 0.0031879290502159485]
+[DEBUG] 2018-05-17 00:05:20.169 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 12, 21.10355654196779, 0.0034275138133547708]
+[DEBUG] 2018-05-17 00:05:20.169 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, pressure, 24, 21.10355654196779, 0.00557475017491286]
+[DEBUG] 2018-05-17 00:05:20.169 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 6, 21.10355654196779, 0.006372428460820776]
+[DEBUG] 2018-05-17 00:05:20.169 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 12, 21.10355654196779, 0.014591340214392314]
+[DEBUG] 2018-05-17 00:05:20.169 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, temperature, 24, 21.10355654196779, 0.01738912923242967]
+[DEBUG] 2018-05-17 00:05:20.170 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 6, 21.10355654196779, 0.018466632278983198]
+[DEBUG] 2018-05-17 00:05:20.170 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 12, 21.10355654196779, 0.012412672767842529]
+[DEBUG] 2018-05-17 00:05:20.170 [WidgetDataService.getOptimalData:64] - indexes = [OPENWEATHERMAP, wind_speed, 24, 21.10355654196779, 0.04786401753476413]
+[DEBUG] 2018-05-17 00:05:20.170 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 6, 21.10355654196779, 0.09477075563176665]
+[DEBUG] 2018-05-17 00:05:20.170 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 12, 21.10355654196779, 0.071078066723825]
+[DEBUG] 2018-05-17 00:05:20.170 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, Nuages, 24, 21.10355654196779, 0.047385377815883326]
+[DEBUG] 2018-05-17 00:05:20.171 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 6, 21.10355654196779, 5.0016231597934695E-5]
+[DEBUG] 2018-05-17 00:05:20.171 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 12, 21.10355654196779, 5.014325694802469E-5]
+[DEBUG] 2018-05-17 00:05:20.171 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, pressure, 24, 21.10355654196779, 5.1061829542977724E-5]
+[DEBUG] 2018-05-17 00:05:20.173 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 6, 21.10355654196779, 0.028545408461191312]
+[DEBUG] 2018-05-17 00:05:20.173 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 12, 21.10355654196779, 0.01662644847815371]
+[DEBUG] 2018-05-17 00:05:20.173 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, temperature, 24, 21.10355654196779, 0.016062839353399194]
+[DEBUG] 2018-05-17 00:05:20.174 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 6, 21.10355654196779, 0.00696843791410049]
+[DEBUG] 2018-05-17 00:05:20.174 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 12, 21.10355654196779, 0.006769339687983332]
+[DEBUG] 2018-05-17 00:05:20.174 [WidgetDataService.getOptimalData:64] - indexes = [WUNDERGROUND, wind_speed, 24, 21.10355654196779, 0.004307761619625757]
+[DEBUG] 2018-05-17 00:05:20.179 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 00:05:20.179 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 00:05:20.179 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 00:05:20.180 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 00:05:20.184 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 00:05:20.196 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-17 00:05:20.201 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 00:05:20.214 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 00:05:20.215 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 00:05:20.219 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:16:15.108 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\koehl\Documents\LP-CDED\ACROBATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-17 10:16:21.331 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-17 10:16:21.337 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:16:21.338 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:16:22.046 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-17 10:16:22.196 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:16:22.198 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:16:22.199 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:16:22.201 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:16:22.234 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:16:22.305 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.289285947188034
+[DEBUG] 2018-05-17 10:16:22.316 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.289285947188034D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.289285947188034D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 10:16:22.373 [WidgetDataService.getOptimalData:110] - HashMap size = 0
+[DEBUG] 2018-05-17 10:16:22.383 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:16:22.383 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:16:22.384 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:16:22.385 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:16:22.398 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:16:22.430 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-17 10:16:22.444 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 10:16:22.474 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:16:22.475 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:16:22.495 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:34:55.356 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\koehl\Documents\LP-CDED\ACROBATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-17 10:35:02.019 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-17 10:35:02.027 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:35:02.028 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:35:02.869 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-17 10:35:02.975 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:35:02.977 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:35:02.977 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:35:02.979 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:35:03.014 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:35:03.066 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.289285947188034
+[DEBUG] 2018-05-17 10:35:03.082 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.289285947188034D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.289285947188034D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 10:35:03.130 [WidgetDataService.getOptimalData:110] - HashMap size = 0
+[DEBUG] 2018-05-17 10:35:03.139 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:35:03.140 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:35:03.141 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:35:03.145 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:35:03.171 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:35:03.199 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-17 10:35:03.209 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 10:35:03.241 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:35:03.241 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:35:03.265 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:48:20.508 [HibernateUtils.loadConfiguration:20] - Successfully loaded configuration from 'C:\Users\koehl\Documents\LP-CDED\ACROBATT\ACRObATT_api\src\main\resources\hibernate_local.cfg.xml'
+[DEBUG] 2018-05-17 10:48:27.046 [WidgetDataService.getOptimalData:44] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, city=Strasbourg}
+[DEBUG] 2018-05-17 10:48:27.051 [WidgetDataService.getOptimalData:46] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:48:27.052 [WeatherDataDAO.getValuesByCriteria:211] - Chosen criteria : {datetime=Thu Feb 15 01:32:36 CET 2018, is_forecast=true, city=Strasbourg}
+[DEBUG] 2018-05-17 10:48:27.781 [WeatherDataDAO.getValuesByCriteria:269] - Generated SQL : select distinct generatedAlias0.name, generatedAlias1.name, generatedAlias1.unit, generatedAlias2.city, generatedAlias3.value, generatedAlias4.inserted_at, generatedAlias5.value_decimal from WeatherData as generatedAlias4 left join generatedAlias4.data_api as generatedAlias0 left join generatedAlias4.data_delay as generatedAlias3 left join generatedAlias4.data_location as generatedAlias2 left join generatedAlias4.data_values as generatedAlias5 left join generatedAlias5.property as generatedAlias1 where ( generatedAlias4.isForecast=:param0 ) and ( generatedAlias2.city=:param1 ) and ( cast(function('date_format', generatedAlias4.inserted_at, :param2) as timestamp)=:param3 ) order by generatedAlias4.inserted_at asc
+[DEBUG] 2018-05-17 10:48:27.947 [WidgetDataService.getOptimalData:54] - forecasts size = 52
+[DEBUG] 2018-05-17 10:48:27.948 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:48:27.949 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:48:27.950 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Tue Jan 16 01:32:36 CET 2018, is_forecast=true, city=Strasbourg, datetime_to=Thu Feb 15 01:32:36 CET 2018}
+[DEBUG] 2018-05-17 10:48:27.951 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:48:28.004 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:48:28.054 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 21.289285947188034
+[DEBUG] 2018-05-17 10:48:28.063 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 21.289285947188034D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/21.289285947188034D) from ComparativeData as generatedAlias0 where ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 10:48:28.099 [WidgetDataService.getOptimalData:65] - indexes size = 38
+[DEBUG] 2018-05-17 10:48:28.113 [WidgetDataService.getOptimalData:114] - HashMap size = 13
+[DEBUG] 2018-05-17 10:48:28.113 [WidgetDataService.getOptimalData:116] - entry = pressure - 24 - 1003.9299926757812 - millibar
+[DEBUG] 2018-05-17 10:48:28.114 [WidgetDataService.getOptimalData:116] - entry = wind_speed - 6 - 10.082857560511624 - km/h
+[DEBUG] 2018-05-17 10:48:28.114 [WidgetDataService.getOptimalData:116] - entry = humidity - 12 - 87.37970611886834 - %
+[DEBUG] 2018-05-17 10:48:28.115 [WidgetDataService.getOptimalData:116] - entry = humidity - 6 - 82.27616645649432 - %
+[DEBUG] 2018-05-17 10:48:28.116 [WidgetDataService.getOptimalData:116] - entry = Nuages - 24 - 0.5 - (0-3)
+[DEBUG] 2018-05-17 10:48:28.117 [WidgetDataService.getOptimalData:116] - entry = temperature - 24 - 2.994124591116664 - °C
+[DEBUG] 2018-05-17 10:48:28.117 [WidgetDataService.getOptimalData:116] - entry = wind_speed - 12 - 12.312273803076764 - km/h
+[DEBUG] 2018-05-17 10:48:28.118 [WidgetDataService.getOptimalData:116] - entry = temperature - 12 - 2.7801666896416126 - °C
+[DEBUG] 2018-05-17 10:48:28.118 [WidgetDataService.getOptimalData:116] - entry = pressure - 6 - 999.0599975585938 - millibar
+[DEBUG] 2018-05-17 10:48:28.119 [WidgetDataService.getOptimalData:116] - entry = temperature - 6 - 3.461610770733692 - °C
+[DEBUG] 2018-05-17 10:48:28.119 [WidgetDataService.getOptimalData:116] - entry = humidity - 24 - 82.2477492497499 - %
+[DEBUG] 2018-05-17 10:48:28.121 [WidgetDataService.getOptimalData:116] - entry = wind_speed - 24 - 6.148507946855625 - km/h
+[DEBUG] 2018-05-17 10:48:28.121 [WidgetDataService.getOptimalData:116] - entry = pressure - 12 - 999.4199829101562 - millibar
+[DEBUG] 2018-05-17 10:48:28.138 [ComparativeDataDAO.getIndexDataForOptimization:488] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:48:28.140 [ComparativeDataDAO.getIndexDataForOptimization:490] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:48:28.140 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, delay=24, city=Strasbourg, property=temperature, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:48:28.142 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:48:28.166 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[INFO ] 2018-05-17 10:48:28.192 [ComparativeDataDAO.getIndexDataForOptimization:498] - Calculated score sum = 0.9209651756309496
+[DEBUG] 2018-05-17 10:48:28.203 [ComparativeDataDAO.getIndexDataForOptimization:538] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, 0.9209651756309496D, (coalesce((1/avg(generatedAlias0.distance)), 0.01D)/0.9209651756309496D) from ComparativeData as generatedAlias0 where ( ( ( generatedAlias0.date_req between :param0 and :param1 ) and ( generatedAlias0.location=:param2 ) ) and ( generatedAlias0.prop=:param3 ) ) and ( generatedAlias0.delay=24 ) group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay
+[DEBUG] 2018-05-17 10:48:28.251 [ComparativeDataDAO.getScoreDataForOptimization:431] - Chosen criteria : {datetime=Thu Feb 15 00:00:00 CET 2018, datetime_to=Thu Mar 15 00:00:00 CET 2018}
+[DEBUG] 2018-05-17 10:48:28.254 [ComparativeDataDAO.getScoreDataForOptimization:433] - Null criteria = [0]
+[DEBUG] 2018-05-17 10:48:28.303 [ComparativeDataDAO.getScoreDataForOptimization:476] - select distinct generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay, coalesce((1/avg(generatedAlias0.distance)), 0.01D) from ComparativeData as generatedAlias0 where generatedAlias0.date_req between :param0 and :param1 group by generatedAlias0.api, generatedAlias0.prop, generatedAlias0.delay

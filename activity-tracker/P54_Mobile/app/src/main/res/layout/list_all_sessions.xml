@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/activityListSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
+    <TextView
+        android:id="@+id/dateListSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activityListSessions"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonListSessionsSee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dateListSessions"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="myClickHandlerSee"
+        android:text="@string/see_session"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <!--<Button
+        android:id="@+id/buttonListSessionsUpdate"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonListSessionsSee"
+        android:layout_alignBottom="@+id/buttonListSessionsSee"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="@string/modify_session"
+        android:textSize="14sp"
+        android:onClick="myClickHandlerModify"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="51dp" />-->
+    <!--<ImageView
+        android:id="@+id/trashListSessionsSee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/buttonListSessionsUpdate"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="11dp"
+        android:onClick="myClickHandlerDelete"
+        app:srcCompat="@drawable/icons8_trash" />-->
+</RelativeLayout>

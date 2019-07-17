@@ -1,0 +1,13 @@
+app:
+    hibernate:
+        conf: 'hibernate/hibernate.cfg.xml'
+        create: false
+        dialect: 'org.hibernate.dialect.MySQL5Dialect'
+        connection:
+            url: 'jdbc:mysql://mysql.iutrs.unistra.fr:3306/p52_project?useTimezone=true&serverTimezone=UTC'
+            username: tcrochemore
+            password: xpodv3jh
+    jwt:
+       expire: 600
+       algorithm: HS512
+       key: 'Q0mIZZ7yZAkrGZTDCKXn/mN8275j9cvHIbPjEMYedZihp5lP3Ae6qDsiBiy24Cc2f6CaNl09iXxike0czmFgdw=='

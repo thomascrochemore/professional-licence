@@ -1,0 +1,34 @@
+
+<ion-content padding >
+  <ion-slides class="slider-pager-page" pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)" primary>
+    <!--<ion-slide>
+      <h2 class="slide-title">Bienvenue <ion-icon name="happy"> </ion-icon></h2>
+      <div>
+        <img src="assets/imgs/logo.png" class="slide-image" style="width: 300px;" />
+        <p>Application météo</p>
+      </div>
+    </ion-slide>-->
+    <ion-slide *ngFor="let slide of slides">
+      <img [src]="slide.image" class="slide-image2" />
+      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+      <p [innerHTML]="slide.description"></p>
+    </ion-slide>
+    <ion-slide>
+      <h2 class="slide-title">L'équipe projet</h2>
+      <div>
+        <img src="assets/people/team_acrobatt_thomas.png" class="slide-image" style="width: 100px;" />
+        <p>Thomas, développeur mobile</p>
+      </div>
+      <div>
+        <img src="assets/people/team_acrobatt_robin.png" class="slide-image" style="width: 100px;" />
+        <img src="assets/people/team_acrobatt_dylan.png" class="slide-image" style="width: 100px;" />
+        <p>Robin et Dylan, développeurs back end</p>
+      </div>
+      <div>
+        <img src="assets/people/team_acrobatt_ysaline.png" class="slide-image" style="width: 100px;" />
+        <img src="assets/people/team_acrobatt_lucas.png" class="slide-image" style="width: 100px;" />
+        <p>Ysaline et Lucas, développeurs web</p>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

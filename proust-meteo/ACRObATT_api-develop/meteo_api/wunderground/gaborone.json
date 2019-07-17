@@ -1,0 +1,537 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"BC",
+		"country_iso3166":"BW",
+		"country_name":"Botswana",
+		"state":"",
+		"city":"Gaborone",
+		"tz_short":"CAT",
+		"tz_long":"Africa/Gaborone",
+		"lat":"-24.64999962",
+		"lon":"25.90999985",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"68244",
+		"l":"/q/zmw:00000.1.68244",
+		"requesturl":"global/stations/68244.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/68244.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"", "state":"", "country":"", "icao":"", "lat":"", "lon":"" }
+		,{ "city":"", "state":"", "country":"", "icao":"", "lat":"", "lon":"" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Phakalane",
+		"city":"Gaborone",
+		"state":"",
+		"country":"BW",
+		"id":"IGABORON2",
+		"lat":-24.572994,
+		"lon":25.983540,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Ruretse",
+		"city":"Gaborone",
+		"state":"SOUTH-EAST",
+		"country":"BW",
+		"id":"ISOUTHEA3",
+		"lat":-24.607719,
+		"lon":26.080544,
+		"distance_km":17,
+		"distance_mi":10
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Gaborone, Botswana",
+		"city":"Gaborone",
+		"state":"",
+		"state_name":"Botswana",
+		"country":"BC",
+		"country_iso3166":"BW",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"68244",
+		"latitude":"-24.64999962",
+		"longitude":"25.90999985",
+		"elevation":"1007.1"
+		},
+		"observation_location": {
+		"full":"Phakalane, Gaborone, ",
+		"city":"Phakalane, Gaborone",
+		"state":"",
+		"country":"BW",
+		"country_iso3166":"BW",
+		"latitude":"-24.572994",
+		"longitude":"25.983540",
+		"elevation":"3225 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IGABORON2",
+		"observation_time":"Last Updated on February 8, 3:57 PM CAT",
+		"observation_time_rfc822":"Thu, 08 Feb 2018 15:57:45 +0200",
+		"observation_epoch":"1518098265",
+		"local_time_rfc822":"Thu, 08 Feb 2018 16:01:43 +0200",
+		"local_epoch":"1518098503",
+		"local_tz_short":"CAT",
+		"local_tz_long":"Africa/Gaborone",
+		"local_tz_offset":"+0200",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"94.5 F (34.7 C)",
+		"temp_f":94.5,
+		"temp_c":34.7,
+		"relative_humidity":"15%",
+		"wind_string":"From the SSW at 3.8 MPH Gusting to 3.8 MPH",
+		"wind_dir":"SSW",
+		"wind_degrees":202,
+		"wind_mph":3.8,
+		"wind_gust_mph":"3.8",
+		"wind_kph":6.1,
+		"wind_gust_kph":"6.1",
+		"pressure_mb":"1011.7",
+		"pressure_in":"29.88",
+		"pressure_trend":"+",
+		"dewpoint_string":"40 F (4 C)",
+		"dewpoint_f":40,
+		"dewpoint_c":4,
+		"heat_index_string":"90 F (32 C)",
+		"heat_index_f":90,
+		"heat_index_c":32,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"90 F (32 C)",
+		"feelslike_f":"90",
+		"feelslike_c":"32",
+		"visibility_mi":"6",
+		"visibility_km":"10",
+		"solarradiation":"--",
+		"UV":"3","precip_1hr_string":"-999.00 in ( 0 mm)",
+		"precip_1hr_in":"-999.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"-999.00 in (-25375 mm)",
+		"precip_today_in":"-999.00",
+		"precip_today_metric":"--",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/68244.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IGABORON2",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=-24.572994,25.983540",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"3:00 PM CAT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Partly cloudy. Lows overnight in the upper 60s.",
+		"fcttext_metric":"Partly cloudy. Low 19C.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Some clouds. Low 67F. Winds E at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. Low 19C. Winds E at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Intervals of clouds and sunshine. High 88F. Winds NE at 5 to 10 mph.",
+		"fcttext_metric":"Intervals of clouds and sunshine. High 31C. Winds NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"A few clouds. Low 68F. Winds ENE at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds. Low near 20C. Winds ENE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Saturday",
+		"fcttext":"Generally sunny despite a few afternoon clouds. High 89F. Winds ENE at 5 to 10 mph.",
+		"fcttext_metric":"Generally sunny despite a few afternoon clouds. High 32C. Winds NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"A few clouds from time to time. Low 68F. Winds SE at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds. Low around 20C. Winds SE at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":6,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Sunday",
+		"fcttext":"Sunshine and some clouds. High 88F. Winds ENE at 5 to 10 mph.",
+		"fcttext_metric":"Generally sunny despite a few afternoon clouds. High 31C. Winds ENE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"A few clouds from time to time. Low 68F. Winds E at 10 to 15 mph.",
+		"fcttext_metric":"Partly cloudy skies. Low around 20C. Winds E at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1518109200",
+	"pretty":"7:00 PM CAT on February 08, 2018",
+	"day":8,
+	"month":2,
+	"year":2018,
+	"yday":38,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"CAT",
+	"tz_long":"Africa/Gaborone"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"98",
+		"celsius":"36"
+		},
+		"low": {
+		"fahrenheit":"67",
+		"celsius":"19"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 12,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 2,
+		"kph": 3,
+		"dir": "WSW",
+		"degrees": 250
+		},
+		"avehumidity": 68,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1518195600",
+	"pretty":"7:00 PM CAT on February 09, 2018",
+	"day":9,
+	"month":2,
+	"year":2018,
+	"yday":39,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CAT",
+	"tz_long":"Africa/Gaborone"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"88",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"68",
+		"celsius":"20"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NE",
+		"degrees": 47
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NE",
+		"degrees": 47
+		},
+		"avehumidity": 46,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1518282000",
+	"pretty":"7:00 PM CAT on February 10, 2018",
+	"day":10,
+	"month":2,
+	"year":2018,
+	"yday":40,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CAT",
+	"tz_long":"Africa/Gaborone"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"89",
+		"celsius":"32"
+		},
+		"low": {
+		"fahrenheit":"68",
+		"celsius":"20"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ENE",
+		"degrees": 57
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "ENE",
+		"degrees": 57
+		},
+		"avehumidity": 45,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1518368400",
+	"pretty":"7:00 PM CAT on February 11, 2018",
+	"day":11,
+	"month":2,
+	"year":2018,
+	"yday":41,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CAT",
+	"tz_long":"Africa/Gaborone"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"88",
+		"celsius":"31"
+		},
+		"low": {
+		"fahrenheit":"68",
+		"celsius":"20"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ENE",
+		"degrees": 70
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "ENE",
+		"degrees": 70
+		},
+		"avehumidity": 42,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

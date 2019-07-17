@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Fonctionnalités web
+    </ion-title>
+  </ion-toolbar>
+  <ion-buttons center>
+    <div>
+        <button color="secondary" ion-button icon-only (click)="goEval()">
+          <ion-icon name="analytics"></ion-icon>
+        </button> Evaluation des APIs
+    </div>
+    <div>
+      <button color="city" ion-button icon-only (click)="goPrev()">
+          <ion-icon name="analytics"></ion-icon>
+      </button> Exploration des données (prévisions)
+    </div>
+    <div>
+      <button color="red" ion-button icon-only (click)="goDist()">
+          <ion-icon name="analytics"></ion-icon>
+      </button> Exploration des données (distance)
+    </div>
+    <div>
+      <button color="sky" ion-button icon-only (click)="goScore()">
+          <ion-icon name="analytics"></ion-icon>
+      </button> Exploration des données (score)
+    </div>
+  </ion-buttons>
+</ion-header>
+
+<ion-content>
+  <!-- menus du haut -->
+<!--  <div>
+    <ion-segment [(ngModel)]="web">
+      <ion-segment-button value="eval">
+        web
+      </ion-segment-button>
+      <ion-segment-button value="prev">
+        Réel
+      </ion-segment-button>
+      <ion-segment-button value="dist">
+        A venir
+      </ion-segment-button>
+    </ion-segment>
+  </div>-->
+
+  <!-- contenu au chargement -->
+  <div *ngIf="isSelected()">
+    <site-web ></site-web>
+  </div>
+
+  <!-- contenu des sous menus -->
+<!--  <div [ngSwitch]="web">
+    <ion-list *ngSwitchCase="eval">
+
+    </ion-list>
+    <ion-list *ngSwitchCase="prev">
+
+    </ion-list>
+    <ion-list *ngSwitchCase="dist">
+
+    </ion-list>
+  </div>-->
+</ion-content>

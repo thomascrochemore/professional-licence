@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayoutModifyAccount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- form -->
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewModifyAccountPasswdConf"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignTop="@+id/textViewModifyAccountPasswdConf"
+        android:layout_toStartOf="@+id/textViewModifyAccountPasswdConf"
+        app:srcCompat="@drawable/icons8_key" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextModifyAccountFirstname"
+        android:layout_alignStart="@+id/textViewModiyAccountTitle"
+        android:layout_alignTop="@+id/textViewModifyAccountFirstname"
+        android:layout_toStartOf="@+id/editTextModifyAccountLogin"
+        app:srcCompat="@drawable/icons8_user" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextModifyAccountLastname"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_alignTop="@+id/textViewModifyAccountLastname"
+        android:layout_toStartOf="@+id/textViewModifyAccountLastname"
+        app:srcCompat="@drawable/icons8_user" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewModifyAccountLogin"
+        android:layout_alignTop="@+id/textViewModifyAccountLogin"
+        android:layout_toStartOf="@+id/editTextModifyAccountLogin"
+        app:srcCompat="@drawable/icons8_contacts" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewModifyAccountPasswd"
+        android:layout_alignStart="@+id/textViewModiyAccountTitle"
+        android:layout_alignTop="@+id/textViewModifyAccountPasswd"
+        android:layout_toStartOf="@+id/textViewModifyAccountPasswd"
+        app:srcCompat="@drawable/icons8_key" />
+
+    <TextView
+        android:id="@+id/textViewModiyAccountTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/update_account"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextModifyAccountLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewModifyAccountLogin"
+        android:layout_below="@+id/textViewModifyAccountLogin"
+        android:layout_marginStart="31dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textViewModifyAccountLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewModiyAccountTitle"
+        android:layout_below="@+id/textViewModiyAccountTitle"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/login" />
+    <TextView
+        android:id="@+id/textViewModifyAccountFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewModifyAccountLogin"
+        android:layout_below="@+id/editTextModifyAccountLogin"
+        android:text="@string/firstname" />
+    <EditText
+        android:id="@+id/editTextModifyAccountFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextModifyAccountLogin"
+        android:layout_below="@+id/textViewModifyAccountFirstname"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textViewModifyAccountLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewModifyAccountFirstname"
+        android:layout_below="@+id/editTextModifyAccountFirstname"
+        android:layout_marginTop="15dp"
+        android:text="@string/lastname" />
+    <EditText
+        android:id="@+id/editTextModifyAccountLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextModifyAccountFirstname"
+        android:layout_below="@+id/textViewModifyAccountLastname"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textViewModifyAccountPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewModifyAccountLastname"
+        android:layout_below="@+id/editTextModifyAccountLastname"
+        android:layout_marginTop="14dp"
+        android:text="@string/passwd" />
+    <EditText
+        android:id="@+id/editTextModifyAccountPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextModifyAccountLastname"
+        android:layout_below="@+id/textViewModifyAccountPasswd"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/textViewModifyAccountPasswdConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewModifyAccountPasswd"
+        android:layout_below="@+id/editTextModifyAccountPasswd"
+        android:layout_marginTop="18dp"
+        android:text="@string/passwdConf"
+        android:textAlignment="viewStart" />
+    <EditText
+        android:id="@+id/editTextModifyAccountPasswdConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextModifyAccountPasswd"
+        android:layout_below="@+id/textViewModifyAccountPasswdConf"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/buttonModifyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewModiyAccountTitle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="13dp"
+        android:text="@string/update_object" />
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<div class="content_body">
+    <img class="frog_img" src="../../../../assets/frog/frog_map.png">
+
+    <h3>Scores : </h3>
+    <br>
+
+    <p class="texte_descr">Pour une période donnée je vous afficherai un graphique et un tableau des scores des APIs
+        pour la ville, la propriété et le délai fixés.</p>
+
+    <br>
+    <br>
+    <mat-card class="basic-container frog">
+
+        <mat-form-field>
+            <input matInput [matDatepicker]="picker" placeholder="Date début"
+                   (dateChange)="updateStartDate($event.value)" [(value)]="startDate">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Heure début" [(value)]="startHour" (change)="updateData()">
+                <mat-option *ngFor="let HOUR of hourList" [value]="HOUR">{{ HOUR }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput [matDatepicker]="picker2" placeholder="Date fin" (dateChange)="updateEndtDate($event.value)"
+                   [(value)]="endDate">
+            <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+            <mat-datepicker #picker2></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Heure fin" [(value)]="endHour" (change)="updateData()">
+                <mat-option *ngFor="let HOUR of hourList" [value]="HOUR">{{ HOUR }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Ville" [(value)]="city" (change)="updateData()">
+                <mat-option *ngFor="let CITY of cityList" [value]="CITY"> {{ CITY }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Propriété" [(value)]="property" (change)="updateData()">
+                <mat-option *ngFor="let PROPERTY of propertyList" [value]="PROPERTY"> {{ PROPERTY }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-select placeholder="Delai" [(value)]="delay" (change)="updateData()">
+                <mat-option *ngFor="let DELAY of delayList" [value]="DELAY"> {{ DELAY }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </mat-card>
+
+    <mat-card class="mat-app-background basic-container frog" *ngIf="scores && !data_null">
+        <mat-tab-group>
+            <mat-tab label="Tab">
+                <tab [data]="scores" [displayedColumns]="displayedColumns"></tab>
+            </mat-tab>
+            <mat-tab label="Graph" class="mat_tab_graph">
+                <graphic
+                        [data]="scores">
+                </graphic>
+            </mat-tab>
+            <mat-tab label="Data" class="mat_tab_data">
+                <pre>{{scores | json}}</pre>
+            </mat-tab>
+        </mat-tab-group>
+    </mat-card>
+
+    <p *ngIf="data_null">Marceau n'a malheureusement rien trouvé avec les paramètres choisis :(</p>
+</div>

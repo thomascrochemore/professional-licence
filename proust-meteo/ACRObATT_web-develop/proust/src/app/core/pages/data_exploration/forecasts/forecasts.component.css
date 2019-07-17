@@ -1,0 +1,15 @@
+.form_align {
+    position: absolute;
+}
+
+.frog_img {
+    float: right;
+    height: 120px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.field {
+    margin-left: 7px;
+    margin-right: 7px;
+}

@@ -1,0 +1,94 @@
+html, body, .row-eq-height{
+  height: 100%;
+}
+
+body
+{
+  padding-top: 70px;
+  background-color: #FAFAFA;
+}
+.main
+{
+  background-color: #FFFFFF;
+  min-height: 80%;
+  padding: 20px;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+}
+h1
+{
+  text-align: center;
+  border-bottom: 1px solid #EEEEEE;
+  margin: 20px 50px 50px 50px;
+  padding: 20px;
+}
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+.avatar-circle {
+  position: relative;
+  width: 100%;
+  padding-top:100%;
+  background-color: #0d667f;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.avatar-circle > .initials {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.avatar-circle-small{
+  width: 40px;
+  padding-top:auto;
+  margin-top: 5px;
+  height: 40px;
+}
+.avatar-circle-small >.initials{
+  font-size: 12px;
+}
+.avatar-circle-white{
+  background-color: #fff;
+}
+.avatar-circle-white > .initials{
+  color: #000;
+}

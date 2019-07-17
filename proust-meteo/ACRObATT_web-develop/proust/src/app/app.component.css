@@ -1,0 +1,43 @@
+.picture_home {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.6;
+}
+
+.color_size {
+    background-color: #318700;
+}
+
+.frog {
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.title {
+    margin-right: 1em;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    overflow: hidden;
+    z-index: 5000;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #318700;
+    color: white;
+    text-align: center;
+}
+
+.texte_descr {
+    text-align: justify;
+    line-height: 15px;
+    font-size: 0.5rem;
+}

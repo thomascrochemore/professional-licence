@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewMDS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/date_session" />
+    <EditText
+        android:id="@+id/editTextModifySessionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewMDS"
+        android:layout_below="@+id/textViewMDS"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="date" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextModifySessionDate"
+        android:layout_below="@+id/editTextModifySessionDate"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="69dp"
+        android:text="@string/update_object" />
+</RelativeLayout>

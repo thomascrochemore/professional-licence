@@ -1,0 +1,66 @@
+header {
+    height: 253px;
+}
+
+.logo {
+    width: 240px;
+    height: 70px;
+}
+
+.logo-container {
+    width: 100%;
+    top: -210px;
+    position: relative;
+    text-align: center;
+}
+
+.descriptif_text {
+    position: relative;
+    top: -225px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+}
+
+.button-header-container {
+    position: relative;
+    top: -210px;
+    margin: 0 auto;
+}
+
+.clear {
+    position: relative;
+    clear: both;
+    height: 20px;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.home__card {
+    padding: 20px 60px;
+}
+
+.home__card .card-title {
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.frog_waterlily {
+    width: 150px;
+    float: right;
+}
+
+.carousel-container, .frugal-container, .widget-container {
+    margin-top: 20px;
+}

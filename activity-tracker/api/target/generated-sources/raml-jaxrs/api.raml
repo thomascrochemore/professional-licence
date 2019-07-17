@@ -1,0 +1,171 @@
+#%RAML 1.0
+title: Raml API generated from api
+version: 1.0
+baseUri: "http://www.baseuri.com"
+mediaType: "*/*"
+types:
+/member/activity:
+    /{activityId}/property:
+        get:
+            description: get all properties of activity with {activityId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+    /{activityId}:
+        get:
+            description: get one activity of {activityId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Activity
+    /:
+        get:
+            description: get all activities, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+        post:
+            description: create an activity with properties, need authentication
+            body:
+                type: ActivityRequest
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Activity
+/member/session:
+    post:
+        description: create new session with properties, need authentication
+        body:
+            type: SessionRequest
+        responses:
+            200:
+                body:
+                    application/json:
+                        type: Session
+    /{sessionId}/session/{propertyId}/property:
+        put:
+            description: update a sessionProperty with {sessionId} session's id and {propertyId} activity property's id, need authentication
+            body:
+                type: SessionPropertyRequest
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: SessionProperty
+    /{userId}/user/{activityId}/activity:
+        get:
+            description: get sessions by user and activity with {userId} user id and {activityId} activity id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+    /{sessionId}/property:
+        get:
+            description: get session properties of session with {sessionId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+    /{userId}/user:
+        get:
+            description: get sessions by user with {userId} user id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+    /{sessionId}:
+        delete:
+            description: delete session of {sessionId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: SuccessMessage
+        get:
+            description: get one session of {sessionId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session
+        put:
+            description: update a session of {sessionId} id, need authentication
+            body:
+                type: SessionRequest
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session
+    /:
+        get:
+            description: get yours sessions, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+/member/user:
+    /whoami:
+        get:
+            description: return your account's user, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+    /{userId}:
+        get:
+            description: get one user of {userId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+    /:
+        put:
+            description: update your's user account, need authentication
+            body:
+                type: UserRegister
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+        get:
+            description: get all users, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: List
+/user:
+    /register:
+        post:
+            description: register your account with yours informations, need to confirm password
+            body:
+                type: UserRegister
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+    /signin:
+        post:
+            description: signin with yours login and password, return jwt token infos
+            body:
+                type: UserCredentials
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: TokenInfo

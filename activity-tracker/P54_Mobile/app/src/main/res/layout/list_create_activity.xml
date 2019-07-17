@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBoxInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/checkBoxString"
+        android:text="@string/activity_int" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBoolean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBoxInt"
+        android:layout_alignBottom="@+id/checkBoxInt"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/checkBoxInt"
+        android:text="@string/activity_bool" />
+
+    <CheckBox
+        android:id="@+id/checkBoxString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBoxInt"
+        android:layout_alignBottom="@+id/checkBoxInt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:text="@string/activity_string" />
+
+    <TextView
+        android:id="@+id/textViewCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/nom_activity" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<div class="widget_canvas">
+    <div *ngIf="!detail" class="content_body_widget">
+        <p> {{city}} {{date | date:'dd/MM/yyyy HH' }}h</p>
+        <mat-tab-group *ngIf="widget">
+            <mat-tab *ngFor="let property of widget.properties" [label]="property.label" class="mat_tab_graph">
+                <div [activeProperty]="property">
+                    <p align="center">
+                        valeur courante : {{property.data[0] | number : '0.0-2' }} {{property.unit}}
+                    </p>
+                    <canvas baseChart [datasets]="[property]" [labels]="widget.column_headers"
+                            [options]="{responsive: true}" [legend]="false"
+                            [chartType]="'line'" (chartHover)="chartHoveredDynamique($event)"
+                            (chartClick)="chartClickedDynamique($event,property)"
+                            class="line widget_canvas"></canvas>
+                </div>
+            </mat-tab>
+        </mat-tab-group>
+    </div>
+
+    <div *ngIf="detail" class="content_body_widget">
+        <app-detail-widget (close)="onClose($event)" [city]="city" [property]="activeProperty"
+                           [delay]="delai"></app-detail-widget>
+    </div>
+
+</div>

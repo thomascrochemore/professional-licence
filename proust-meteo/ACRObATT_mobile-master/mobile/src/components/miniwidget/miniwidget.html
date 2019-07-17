@@ -1,0 +1,31 @@
+<!-- mini widget, onclick widget -->
+<ion-grid>
+  <ion-row>
+    <p>{{ tabCities }}</p>
+    <ion-col *ngFor="let c of tabCities">
+      <ion-card *ngIf="mini_display(tabCities.indexOf(c))"  #card (click)="mini_click(tabCities.indexOf(c))">
+        <ion-card-content text-center>
+          <p><ion-icon name="home" color="city" item-start></ion-icon> {{c}}</p>
+          <div *ngFor="let property of widget.properties">
+            <p><ion-icon [name]="property.logo" [color]="property.color" item-start></ion-icon> {{property.mesure}}{{property.unit}} </p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+      <ion-card *ngIf="full_display(tabCities.indexOf(c))" #minicard (click)="full_click(tabCities.indexOf(c))">
+        <ion-card-content text-center>
+          <!-- procéder de la même façon pour deleteFav -->
+          <p text-right>
+            <ion-icon name="arrow-dropup-circle" color="dark"></ion-icon>
+          </p>
+        </ion-card-content>
+      </ion-card>
+      <!--<p (click)="delete_fav(tabCities.indexOf(c))" text-left>
+        <ion-icon name="trash" color="gray"></ion-icon>
+      </p>--->
+      <div *ngIf="full_display(tabCities.indexOf(c))">
+        {{ getWidgetByTeci(tabCities[tabCities.indexOf(c)]) | json }}
+      <!--  <widget [widget]="getWidgetByTeci(tabCities[tabCities.indexOf(c)])"></widget>-->
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>

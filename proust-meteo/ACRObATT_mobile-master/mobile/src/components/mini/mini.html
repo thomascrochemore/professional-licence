@@ -1,0 +1,29 @@
+<ion-card *ngIf="mini_display()" #card>
+  <ion-card-content text-center>
+    <p><ion-icon name="home" color="city" item-start></ion-icon> {{ville}}</p>
+    <!--<div *ngFor="let property of widget.properties">
+      <p><ion-icon [name]="property.logo" [color]="property.color" item-start></ion-icon> {{property.mesure}}{{property.unit}} </p>
+    </div>-->
+    <!--<div *ngIf="ready_to()">
+      <div *ngFor="let property of widget.properties.reverse()">
+        <p><ion-icon [name]="property.logo" [color]="property.color" item-start></ion-icon> {{property.mesure}}{{property.unit}} </p>
+      </div>
+    </div>-->
+    <!--<p><ion-icon name="sunny" color="secondary" item-start></ion-icon>{{ widget.properties["Température"][0] }}</p>-->
+    <hr>
+    <p (click)="mini_click()">
+      <ion-icon name="arrow-dropdown-circle" color="dark"></ion-icon>
+    </p>
+  </ion-card-content>
+</ion-card>
+<ion-card *ngIf="full_display()" #minicard>
+  <ion-card-content text-center>
+    <!-- procéder de la même façon pour deleteFav -->
+    <p (click)="full_click()">
+      <ion-icon name="arrow-dropup-circle" color="dark"></ion-icon>
+    </p>
+  </ion-card-content>
+</ion-card>
+<div *ngIf="full_display()">
+  <widget [widget]="widget"></widget>
+</div>

@@ -1,0 +1,17 @@
+<!-- statusbar color : https://github.com/apache/cordova-plugin-statusbar/blob/master/README.md -->
+
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Flash : la météo à {{ widget.city }}</ion-title>
+  </ion-navbar>
+  <!-- refresh -->
+  <ion-buttons end>
+    <button ion-button icon-only (click)="refresh()">
+      <ion-icon name="refresh"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-header>
+
+<ion-content padding>
+  <widget [widget]="widget"></widget>
+</ion-content>

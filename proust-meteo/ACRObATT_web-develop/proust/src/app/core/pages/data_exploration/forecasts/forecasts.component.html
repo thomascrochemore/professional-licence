@@ -1,0 +1,114 @@
+<div class="content_body">
+    <h3>Exploration des données de prévisions </h3>
+    <img class="frog_img" src="../../../../assets/frog/frog_stats.png">
+
+    <br>
+    <p class="texte_descr">Choisissez par exemple le paramètre <b>"Propriété"</b> puis fixez une date, une heure et un
+        délai de prévisions et je vous afficherai un graphique et un tableau affichant (dans cet exemple) les villes en
+        colonne et les APIs en ligne.</p>
+
+    <br>
+    <br>
+    <mat-card class="basic-container frog">
+        <clr-dropdown class="field">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{param_dropdown}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let param_dd of params_dropdown" type="button"
+                        (click)="changeDropdownParams($event.srcElement.innerText)" clrDropdownItem>{{param_dd}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <clr-dropdown class="field" *ngIf="display_cities">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{location}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let city of locations" type="button"
+                        (click)="changeDropdown('location', $event.srcElement.innerText)" clrDropdownItem>{{city}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <input class="field" type="date" max="2012-06-25" min="2011-08-13" [(clrDate)]="current_date"
+               data-date-format="mm/dd/yyyy">
+
+
+        <clr-dropdown class="field">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{hour}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let hour of hours" type="button" clrDropdownItem
+                        (click)="changeDropdown('hour', $event.srcElement.innerText)">{{hour}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <clr-dropdown class="field" *ngIf="display_properties">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{property}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let prop of properties" type="button"
+                        (click)="changeDropdown('property', $event.srcElement.innerText)" clrDropdownItem>{{prop}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+
+        <clr-dropdown class="field">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{delay}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let del of delays" type="button" clrDropdownItem
+                        (click)="changeDropdown('delay', $event.srcElement.innerText)">{{del}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+        <clr-dropdown class="field" *ngIf="display_apis">
+            <button type="button" class="btn btn-outline-primary" clrDropdownTrigger>
+                {{api}}
+                <clr-icon shape="caret down"></clr-icon>
+            </button>
+            <clr-dropdown-menu clrPosition="bottom-left" *clrIfOpen>
+                <button *ngFor="let api of apis" type="button"
+                        (click)="changeDropdown('api', $event.srcElement.innerText)"
+                        clrDropdownItem>{{api}}
+                </button>
+            </clr-dropdown-menu>
+        </clr-dropdown>
+
+
+        <button class="btn btn-primary" (click)="search()">Valider</button>
+
+    </mat-card>
+
+    <mat-card class="mat-app-background basic-container" *ngIf="display_tab_with_eval && !data_null">
+        <mat-tab-group>
+            <mat-tab label="Tab">
+                <tab [data]="data_table" [displayedColumns]="displayedColumns"></tab>
+            </mat-tab>
+            <mat-tab label="Graph" class="mat_tab_graph">
+                <graphic
+                        [data]="data_table">
+                </graphic>
+            </mat-tab>
+
+        </mat-tab-group>
+    </mat-card>
+
+    <p *ngIf="data_null">Marceau n'a malheureusement rien trouvé avec les paramètres choisis :(</p>
+
+</div>
+
+

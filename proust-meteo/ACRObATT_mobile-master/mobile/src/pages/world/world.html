@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      <ion-searchbar (ionInput)="getItems($event)" placeholder="ville"></ion-searchbar>
+      <!--<ion-searchbar [(ngModel)]="searchValue" (ionInput)="getCities($event)"></ion-searchbar>
+      <ion-list *ngIf="searchValue.length >= 2">
+         <ion-item *ngFor="let city of cities">
+           {{ city }}
+         </ion-item>
+      </ion-list>-->
+    </ion-title>
+    <!--<ion-buttons end>
+      <button ion-button icon-only (click)="addMarker()">
+        <ion-icon name="compass"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="hide()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>-->
+  </ion-toolbar>
+  <ion-buttons end>
+    <button ion-button icon-only (click)="refresh()">
+      <ion-icon name="refresh"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-header>
+
+<ion-content padding>
+  <!-- {{ widget | json }} -->
+  <!-- affichage des villes -->
+  <ion-list>
+    <button ion-item (click)="widgetOfCity(item, city)" *ngFor="let city of currentCities">
+      <ion-avatar item-start>
+        <img src="assets/city/city-hall.png" alt="your image">
+      </ion-avatar>
+      <h2>{{ city }}</h2>
+      <!--  TODO <p><ion-icon name="sunny" color="secondary" item-start></ion-icon>{{ currentCitiesTemp }}</p> -->
+    </button>
+  </ion-list>
+  <!-- affichage variable en fonction de la ville cliquée -->
+  <div *ngIf="widgetVisible">
+    <widget [widget]="widget"></widget>
+  </div>
+</ion-content>

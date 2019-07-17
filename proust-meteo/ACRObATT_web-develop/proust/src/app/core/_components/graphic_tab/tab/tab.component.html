@@ -1,0 +1,16 @@
+<mat-table *ngIf="data" [dataSource]="data.datas">
+
+    <ng-container matColumnDef="{{data.series_type[0]}}">
+        <mat-header-cell *matHeaderCellDef> {{ data.series_type[0] }}</mat-header-cell>
+        <mat-cell *matCellDef="let row"> {{row.label}}</mat-cell>
+    </ng-container>
+
+    <ng-container *ngFor="let col of data.column_headers; index as i" [matColumnDef]="col">
+        <mat-header-cell *matHeaderCellDef> {{col}}</mat-header-cell>
+        <mat-cell *matCellDef="let row"> {{row.data[i] | number : '0.0-2'}}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+

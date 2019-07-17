@@ -1,0 +1,891 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"FR",
+		"country_iso3166":"FR",
+		"country_name":"France",
+		"state":"67",
+		"city":"Strasbourg",
+		"tz_short":"CET",
+		"tz_long":"Europe/Paris",
+		"lat":"48.58000183",
+		"lon":"7.73999977",
+		"zip":"00000",
+		"magic":"340",
+		"wmo":"07190",
+		"l":"/q/zmw:00000.340.07190",
+		"requesturl":"global/stations/07190.html",
+		"wuiurl":"https://www.wunderground.com/global/stations/07190.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Strasbourg", "state":"", "country":"France", "icao":"LFST", "lat":"48.54999924", "lon":"7.63333321" }
+		,{ "city":"Strasbourg", "state":"", "country":"FR", "icao":"LFST", "lat":"48.54999924", "lon":"7.63000011" }
+		,{ "city":"Lahr", "state":"", "country":"DL", "icao":"EDTL", "lat":"48.36999893", "lon":"7.82999992" }
+		,{ "city":"Karlsruhe", "state":"", "country":"DE", "icao":"EDSB", "lat":"48.77999878", "lon":"8.07999992" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Rue du Fossé des Tanneurs",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO187",
+		"lat":48.581547,
+		"lon":7.742393,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Grand Rue",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO219",
+		"lat":48.582516,
+		"lon":7.740059,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Quai Charles Altorffer",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO26",
+		"lat":48.582066,
+		"lon":7.737748,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue des Botteleurs",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO138",
+		"lat":48.577515,
+		"lon":7.741143,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue des Botteleurs",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO32",
+		"lat":48.577435,
+		"lon":7.740969,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"",
+		"city":"Strasbourg",
+		"state":"ALSACE",
+		"country":"FR",
+		"id":"IALSACES3",
+		"lat":48.581036,
+		"lon":7.743816,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS6",
+		"lat":48.581718,
+		"lon":7.743235,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue de la Vignette",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO7",
+		"lat":48.582355,
+		"lon":7.742929,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue du Jeu des Enfants",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO86",
+		"lat":48.583313,
+		"lon":7.741876,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue du Faubourg national",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO121",
+		"lat":48.582352,
+		"lon":7.735412,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue Hannong",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO152",
+		"lat":48.583401,
+		"lon":7.743000,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO286",
+		"lat":48.578743,
+		"lon":7.733818,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue Kageneck",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO18",
+		"lat":48.584423,
+		"lon":7.738554,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS10",
+		"lat":48.578125,
+		"lon":7.746365,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Schiltigheim",
+		"state":"67",
+		"country":"FR",
+		"id":"I67SCHIL2",
+		"lat":48.581348,
+		"lon":7.746836,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Schiltigheim",
+		"state":"67",
+		"country":"FR",
+		"id":"I67SCHIL5",
+		"lat":48.580513,
+		"lon":7.747114,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Boulevard de Metz",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO44",
+		"lat":48.583096,
+		"lon":7.733720,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS9",
+		"lat":48.577614,
+		"lon":7.732656,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Boulevard de Nancy",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO20",
+		"lat":48.581814,
+		"lon":7.732228,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO265",
+		"lat":48.585457,
+		"lon":7.739607,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO276",
+		"lat":48.584938,
+		"lon":7.743988,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue de la Douane",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO23",
+		"lat":48.579140,
+		"lon":7.748690,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue de Molsheim",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO45",
+		"lat":48.576702,
+		"lon":7.732385,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS7",
+		"lat":48.586143,
+		"lon":7.743334,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue Kageneck",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO71",
+		"lat":48.586540,
+		"lon":7.738963,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue Mercière",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO64",
+		"lat":48.581478,
+		"lon":7.749740,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Neudorf",
+		"state":"67",
+		"country":"FR",
+		"id":"I67NEUDO2",
+		"lat":48.579441,
+		"lon":7.752016,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO270",
+		"lat":48.587563,
+		"lon":7.746186,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS11",
+		"lat":48.588634,
+		"lon":7.738658,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Guido Guersi Street",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO10",
+		"lat":48.572300,
+		"lon":7.746280,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS4",
+		"lat":48.583412,
+		"lon":7.752422,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Impasse du Mai",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO97",
+		"lat":48.588223,
+		"lon":7.745436,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Rue Friese",
+		"city":"Strasbourg",
+		"state":"",
+		"country":"FR",
+		"id":"ISTRASBO245",
+		"lat":48.588932,
+		"lon":7.741516,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Strasbourg",
+		"city":"Strasbourg",
+		"state":"67",
+		"country":"FR",
+		"id":"I67STRAS8",
+		"lat":48.589317,
+		"lon":7.745282,
+		"distance_km":1,
+		"distance_mi":0
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Strasbourg, France",
+		"city":"Strasbourg",
+		"state":"67",
+		"state_name":"France",
+		"country":"FR",
+		"country_iso3166":"FR",
+		"zip":"00000",
+		"magic":"340",
+		"wmo":"07190",
+		"latitude":"48.58000183",
+		"longitude":"7.73999977",
+		"elevation":"141.1"
+		},
+		"observation_location": {
+		"full":"Strasbourg, ALSACE",
+		"city":"Strasbourg",
+		"state":"ALSACE",
+		"country":"FR",
+		"country_iso3166":"FR",
+		"latitude":"48.581036",
+		"longitude":"7.743816",
+		"elevation":"456 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IALSACES3",
+		"observation_time":"Last Updated on February 8, 2:30 PM CET",
+		"observation_time_rfc822":"Thu, 08 Feb 2018 14:30:13 +0100",
+		"observation_epoch":"1518096613",
+		"local_time_rfc822":"Thu, 08 Feb 2018 15:01:03 +0100",
+		"local_epoch":"1518098463",
+		"local_tz_short":"CET",
+		"local_tz_long":"Europe/Paris",
+		"local_tz_offset":"+0100",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"37.0 F (2.8 C)",
+		"temp_f":37.0,
+		"temp_c":2.8,
+		"relative_humidity":"76%",
+		"wind_string":"Calm",
+		"wind_dir":"NW",
+		"wind_degrees":313,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1019",
+		"pressure_in":"30.09",
+		"pressure_trend":"0",
+		"dewpoint_string":"30 F (-1 C)",
+		"dewpoint_f":30,
+		"dewpoint_c":-1,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"37 F (3 C)",
+		"windchill_f":"37",
+		"windchill_c":"3",
+		"feelslike_string":"37 F (3 C)",
+		"feelslike_f":"37",
+		"feelslike_c":"3",
+		"visibility_mi":"4.3",
+		"visibility_km":"7.0",
+		"solarradiation":"--",
+		"UV":"1","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/07190.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IALSACES3",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=48.581036,7.743816",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"1:58 PM CET",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Partly cloudy. Temps nearly steady in the mid to upper 30s. Winds light and variable.",
+		"fcttext_metric":"Sunshine and clouds mixed. High 3C. Winds light and variable.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Partly cloudy skies. Widespread frost likely. Low 27F. Winds light and variable.",
+		"fcttext_metric":"Some clouds. Widespread frost likely. Low -3C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Intervals of clouds and sunshine. Widespread frost likely. High 42F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Intervals of clouds and sunshine. Widespread frost likely. High 6C. Winds S at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_snow",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_snow.gif",
+		"title":"Friday Night",
+		"fcttext":"Light rain mixing with and changing to snow showers late. Low 32F. Winds light and variable. Chance of precip 40%.",
+		"fcttext_metric":"Light rain early...remaining cloudy with snow showers late. Low near 0C. Winds light and variable. Chance of precip 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":4,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Overcast. High near 40F. Winds light and variable.",
+		"fcttext_metric":"Cloudy skies. High near 5C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"Partly cloudy skies in the evening, then becoming cloudy overnight. Widespread frost likely. Low 31F. Winds SSW at 10 to 15 mph.",
+		"fcttext_metric":"Becoming cloudy with snow likely after midnight. Low -1C. Winds SSW at 15 to 25 km/h. Chance of snow 40%.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":6,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy. High 42F. Winds SSW at 10 to 20 mph.",
+		"fcttext_metric":"Cloudy. Some light rain is likely. High 6C. Winds SSW at 15 to 30 km/h. Chance of rain 40%.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Sunday Night",
+		"fcttext":"Rain showers early with overcast skies late. Snow may mix in. Low 31F. Winds SW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Rain showers early with overcast skies late. Snow may mix in. Low -1C. Winds SW at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1518112800",
+	"pretty":"7:00 PM CET on February 08, 2018",
+	"day":8,
+	"month":2,
+	"year":2018,
+	"yday":38,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Paris"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"27",
+		"celsius":"-3"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNE",
+		"degrees": 26
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "NNE",
+		"degrees": 26
+		},
+		"avehumidity": 73,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1518199200",
+	"pretty":"7:00 PM CET on February 09, 2018",
+	"day":9,
+	"month":2,
+	"year":2018,
+	"yday":39,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Paris"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"42",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"32",
+		"celsius":"0"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.2,
+		"cm": 0.5
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.2,
+		"cm": 0.5
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "S",
+		"degrees": 186
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "S",
+		"degrees": 186
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1518285600",
+	"pretty":"7:00 PM CET on February 10, 2018",
+	"day":10,
+	"month":2,
+	"year":2018,
+	"yday":40,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Paris"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"40",
+		"celsius":"4"
+		},
+		"low": {
+		"fahrenheit":"31",
+		"celsius":"-1"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 244
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "WSW",
+		"degrees": 244
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1518372000",
+	"pretty":"7:00 PM CET on February 11, 2018",
+	"day":11,
+	"month":2,
+	"year":2018,
+	"yday":41,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"CET",
+	"tz_long":"Europe/Paris"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"42",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"31",
+		"celsius":"-1"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SSW",
+		"degrees": 199
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "SSW",
+		"degrees": 199
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

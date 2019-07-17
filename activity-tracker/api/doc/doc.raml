@@ -1,0 +1,360 @@
+#%RAML 1.0
+title: Raml API generated from api
+version: 1.0
+baseUri: "http://arch208.iutrs.unistra.fr:8080/api"
+mediaType: "application/json"
+types:
+    string:
+      value: string
+    UserRegister:
+        type: object
+        properties:
+          login:
+            type: string
+            required: true
+          password:
+            type: string
+            required: true
+          confpassword:
+            type: string
+            required: true
+          firstname:
+            type: string
+            required: true
+          lastname:
+            type: string
+            required: true
+    UserAccount:
+        type: object
+        properties:
+          login:
+            type: string
+            required: true
+          password:
+            type: string
+            required: false
+          confpassword:
+            type: string
+            required: false
+          firstname:
+            type: string
+            required: true
+          lastname:
+            type: string
+            required: true
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          required: true
+        login:
+          type: string
+          required: true
+        firstname:
+          type: string
+          required: true
+        lastname:
+          type: string
+          required: true
+        roles:
+          type: string[]
+    UserCredentials:
+      type: object
+      properties:
+        login:
+          type: string
+          required: true
+        password:
+          type: string
+          required: true
+    TokenInfo:
+      type: object
+      properties:
+        token:
+          type: string
+          required: true
+        expire:
+          type: integer
+          required: true
+    Property:
+      type: object
+      properties:
+        id:
+          type: integer
+          required: true
+        name:
+          type: string
+          required: true
+        activityId:
+          type: integer
+          required: true
+          valueType:
+            required: true
+            enum: ['bool','number','string']
+    Activity:
+      type: object
+      properties:
+        id:
+          type: integer
+          required: true
+        name:
+          type: string
+          required: true
+    PropertyRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          required: true
+        value_type:
+          required: true
+          enum: ['bool','number','string']
+    ActivityRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          required: true
+        properties:
+          type: PropertyRequest[]
+          required: true
+    SessionProperty:
+      type: object
+      properties:
+        id:
+          type: integer
+          required: true
+        valueString:
+          type: string
+          required: false
+        valueNumber:
+          type: integer
+          required: false
+        valueBool:
+          type: boolean
+          required: false
+        session:
+          type: Session
+          required: true
+        property:
+          type: Property
+          required: true
+    Session:
+      type: object
+      properties:
+        id:
+          type: integer
+          required: true
+        date:
+          type: integer
+          required: true
+        activityId:
+          type: integer
+          required: true
+        userId:
+          type: integer
+          required: true
+    SessionPropertyRequest:
+      type: object
+      properties:
+        propertyId:
+          type: integer
+          required: true
+        value_bool:
+          type: boolean
+          required: false
+        value_number:
+          type: integer
+          required: false
+        value_string:
+          type: string
+          required: false
+    SessionRequest:
+      type: object
+      properties:
+        activityId:
+          type: integer
+          required: true
+        date:
+          type: integer
+          required: true
+        properties:
+          type: SessionPropertyRequest[]
+          required: true
+    SuccessMessage:
+      type: object
+      properties:
+        message:
+          type: string
+          required: true
+        status:
+          type: integer
+          required: true
+/member/activity:
+    /{activityId}/property:
+        get:
+            description: get all properties of activity with {activityId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Property[]
+    /{activityId}:
+        get:
+            description: get one activity of {activityId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Activity
+    /:
+        get:
+            description: get all activities, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Activity[]
+        post:
+            description: create an activity with properties, need authentication
+            body:
+                type: ActivityRequest
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Activity
+/member/session:
+    post:
+        description: create new session with properties, need authentication
+        body:
+            type: SessionRequest
+        responses:
+            200:
+                body:
+                    application/json:
+                        type: Session
+    /{sessionId}/session/{propertyId}/property:
+        put:
+            description: update a sessionProperty with {sessionId} session's id and {propertyId} activity property's id, need authentication
+            body:
+                type: SessionPropertyRequest
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: SessionProperty
+    /{userId}/user/{activityId}/activity:
+        get:
+            description: get sessions by user and activity with {userId} user id and {activityId} activity id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session[]
+    /{sessionId}/property:
+        get:
+            description: get session properties of session with {sessionId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: SessionProperty[]
+    /{userId}/user:
+        get:
+            description: get sessions by user with {userId} user id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session[]
+    /{sessionId}:
+        delete:
+            description: delete session of {sessionId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: SuccessMessage
+        get:
+            description: get one session of {sessionId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session
+        put:
+            description: update a session of {sessionId} id, need authentication
+            body:
+                type: SessionRequest
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session
+    /:
+        get:
+            description: get yours sessions, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: Session[]
+/member/user:
+    /whoami:
+        get:
+            description: return your account's user, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+    /{userId}:
+        get:
+            description: get one user of {userId} id, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+    /:
+        put:
+            description: update your's user account, need authentication
+            body:
+                type: UserAccount
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+        get:
+            description: get all users, need authentication
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User[]
+/user:
+    /register:
+        post:
+            description: register your account with yours informations, need to confirm password
+            body:
+                application/json:
+                  type: UserRegister
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: User
+    /signin:
+        post:
+            description: signin with yours login and password, return jwt token infos
+            body:
+                application/json:
+                    type: UserCredentials
+            responses:
+                200:
+                    body:
+                        application/json:
+                            type: TokenInfo

@@ -1,0 +1,38 @@
+{
+  "location": {
+    "name": "Helsinki",
+    "region": "Southern Finland",
+    "country": "Finland",
+    "lat": 60.18,
+    "lon": 24.93,
+    "tz_id": "Europe/Helsinki",
+    "localtime_epoch": 1518096341,
+    "localtime": "2018-02-08 15:25"
+  },
+  "current": {
+    "last_updated_epoch": 1518095709,
+    "last_updated": "2018-02-08 15:15",
+    "temp_c": -2.0,
+    "temp_f": 28.4,
+    "is_day": 1,
+    "condition": {
+      "text": "Light snow",
+      "icon": "//cdn.apixu.com/weather/64x64/day/326.png",
+      "code": 1213
+    },
+    "wind_mph": 9.4,
+    "wind_kph": 15.1,
+    "wind_degree": 160,
+    "wind_dir": "SSE",
+    "pressure_mb": 1019.0,
+    "pressure_in": 30.6,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 93,
+    "cloud": 75,
+    "feelslike_c": -6.9,
+    "feelslike_f": 19.6,
+    "vis_km": 8.0,
+    "vis_miles": 4.0
+  }
+}

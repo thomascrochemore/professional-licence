@@ -1,0 +1,32 @@
+<!-- widget -->
+<ion-card>
+  <ion-card-content  text-left>
+    <p><ion-icon name="home" color="city" item-start></ion-icon> {{widget.city}}</p>
+    <mat-tab-group>
+      <!-- widget.properties.reverse() -->
+      <mat-tab *ngFor="let property of widget.properties.reverse()" [label]="property.label" class="mat_tab_graph">
+        <div>
+          <p text-center><ion-icon [name]="property.logo" [color]="property.color" item-start></ion-icon>
+            {{property.mesure}} {{property.unit}}
+          </p>
+          <canvas baseChart
+              [datasets]="[property]"
+              [labels]="widget.column_headers"
+              [options]="{responsive: true}"
+              [colors]="lineChartColors"
+              [legend]="false"
+
+              [chartType]="property.type_chart"
+              (chartHover)="chartHoveredDynamique($event)"
+              (chartClick)="chartClickedDynamique($event)"
+              class="line"></canvas>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <!--<iframe [src]="photoURL()" width="640" height="360" frameborder="0"
+      webkitallowfullscreen mozallowfullscreen allowfullscreen>l</iframe>-->
+    <hr>
+    <p text-center><ion-icon name="calendar" item-start></ion-icon>
+      {{ date | date:'dd/MM/yyyy HH' }}h00</p>  
+  </ion-card-content>
+</ion-card>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_activities"
+            android:icon="@drawable/icons8_move"
+            android:title="@string/my_activities" />
+        <item
+            android:id="@+id/my_sessions"
+            android:icon="@drawable/icons8_list"
+            android:title="@string/my_sessions" />
+        <!--<item
+            android:id="@+id/create_activity"
+            android:icon="@drawable/icons8_add_activity"
+            android:title="@string/create_activity" />
+        <item
+            android:id="@+id/create_session"
+            android:icon="@drawable/icons8_add_activity"
+            android:title="@string/create_session" />-->
+    </group>
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/my_account"
+                android:icon="@drawable/icons8_contacts"
+                android:title="@string/my_account" />
+            <item
+                android:id="@+id/maj_my_account"
+                android:icon="@drawable/icons8_modify_user"
+                android:title="@string/update_account" />
+            <item
+                android:id="@+id/all_users"
+                android:icon="@drawable/icons8_whatsapp"
+                android:title="@string/all_users" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      <ion-searchbar (ionInput)="getItems($event)" placeholder="ville"></ion-searchbar>
+      <!--<ion-searchbar [(ngModel)]="searchValue" (ionInput)="getCities($event)"></ion-searchbar>
+      <ion-list *ngIf="searchValue.length >= 2">
+         <ion-item *ngFor="let city of cities">
+           {{ city }}
+         </ion-item>
+      </ion-list>-->
+    </ion-title>
+    <!--<ion-buttons start>
+        <button ion-button icon-only>
+            <ion-icon name="add"></ion-icon>
+        </button>
+    </ion-buttons>
+    <ion-buttons start>
+        <button ion-button icon-only>
+            <ion-icon name="star"></ion-icon>
+        </button>
+    </ion-buttons>-->
+    <ion-buttons end>
+        <button ion-button icon-only (click)="clearFavs()">
+            <ion-icon name="trash"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- affichage des villes -->
+
+  <ion-list>
+    <button ion-item (click)="addToFavs(item, city)" *ngFor="let city of currentCities">
+      <!-- let city of currentCities -->
+      <ion-avatar item-start>
+        <!-- if fav : étoile jaune -->
+        <!-- else fav : étoile noire -->
+        <!--<img src="assets/imgs/star.png" alt="your image">-->
+        <img src="assets/city/city-church.png" alt="your image">
+      </ion-avatar>
+      <h2>{{ city }} </h2>
+      <!--<p><ion-icon name="sunny" color="secondary" item-start></ion-icon>
+        {{ currentCitiesTemp[currentCities.indexOf(city)] }}
+      <ion-icon name="rainy" color="sky" item-end></ion-icon>
+        {{ currentCitiesHumidity[currentCities.indexOf(city)] }}
+      </p>-->
+    </button>
+  </ion-list>
+  <!-- affichage variable en fonction des villes en favs -->
+  <!-- {{ widgets | json }}-->
+  <div *ngIf="one_more_w">
+    <miniwidget [widget]="widget" [widgets]="widgets" [storage]='storage'
+    [tabCities]='tabCities' [tabTemps]='tabTemps' [tabRains]='tabRains'
+    ></miniwidget>
+  </div>
+</ion-content>

@@ -1,0 +1,25 @@
+<!-- -->
+<ion-card>
+  <ion-card-content text-left>
+    <p><ion-icon name="home" color="city" item-start></ion-icon> {{city}}</p>
+    <p><ion-icon name="sunny" color="secondary" item-start></ion-icon> {{temp}}</p>
+  </ion-card-content>
+  <ion-card-content text-center>
+    <mat-tab-group>
+          <mat-tab *ngFor="let property of widget.properties" [label]="property.label" class="mat_tab_graph">
+            <div>
+                <canvas baseChart
+                        [datasets]="[property]"
+                        [labels]="widget.delay"
+                        [options]="{responsive: true}"
+
+                        [legend]="false"
+                        [chartType]="property.type_chart"
+                        (chartHover)="chartHoveredDynamique($event)"
+                        (chartClick)="chartClickedDynamique($event)"
+                        class="line"></canvas>
+              </div>
+          </mat-tab>
+      </mat-tab-group>
+  </ion-card-content>
+</ion-card>

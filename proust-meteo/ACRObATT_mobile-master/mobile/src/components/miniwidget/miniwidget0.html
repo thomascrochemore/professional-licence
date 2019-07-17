@@ -1,0 +1,31 @@
+<!-- mini widget, onclick widget -->
+<ion-grid>
+  <ion-row>
+    <ion-col *ngFor="let c of tabCities">
+      <ion-card *ngIf="mini_display(tabCities.indexOf(c))"  #card (click)="mini_click(tabCities.indexOf(c))">
+        <ion-card-content text-center>
+          <p><ion-icon name="home" color="city" item-start></ion-icon> {{c}}</p>
+          <p><ion-icon name="sunny" color="secondary" item-start></ion-icon>
+            {{ tabTemps.indexOf(c) }} °C</p>
+          <p><ion-icon name="rainy" color="sky" item-start></ion-icon>
+            {{ tabRains.indexOf(c) }} %</p>
+          <!-- let property of widgets[tabCities.indexOf(c)+1].properties -->
+          <!--<div *ngFor="let property of widget.properties">
+            <p><ion-icon [name]="property.logo" [color]="property.color" item-start></ion-icon>
+              {{property.mesure}}{{property.unit}} </p>
+          </div>-->
+        </ion-card-content>
+      </ion-card>
+      <div *ngIf="full_display(tabCities.indexOf(c))">
+      <!-- procéder de la même façon pour deleteFav -->
+      <p (click)="delete_fav(tabCities.indexOf(c))" text-left>
+        <ion-icon name="star" color="secondary"></ion-icon> Retirer des favoris
+      </p>
+      <p (click)="full_click(tabCities.indexOf(c))" text-right>
+        <ion-icon name="apps" color="dark"></ion-icon> Réduire le widget
+      </p>
+      <widget [widget]="widget"></widget>
+    </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>

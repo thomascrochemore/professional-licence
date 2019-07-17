@@ -1,0 +1,87 @@
+<resources>
+    <!-- headers -->
+    <string name="app_name">ActivityTracker</string>
+    <string name="app_name_user">MyActivityTracker</string>
+    <string name="app_signup">Inscription</string>
+    <string name="app_signin">Connexion</string>
+
+    <string name="app_all_activities">Les activités</string>
+    <string name="app_all_users">Liste des utilisateurs</string>
+
+    <string name="app_my_sessions">Mes séances</string>
+
+    <string name="app_user_account">Profil de l\'utilisateur</string>
+    <string name="app_user_sessions">Séances de l\'utilisateur</string>
+    <string name="app_activity_sessions">Séances de l\'activité</string>
+
+    <string name="app_create_activity">Créer une activité</string>
+    <string name="app_create_session">Créer une séance</string>
+
+    <string name="app_see_activity">Contenu de l\'activité</string>
+    <string name="app_see_session">Contenu de la séance</string>
+
+    <string name="app_modify_session">Modifier la séance</string>
+
+    <string name="navigation_drawer_open">Ouvrir la barre de navigation</string>
+    <string name="navigation_drawer_close">Fermer la barre de navigation</string>
+
+    <!-- authentification -->
+    <string name="signIn">Se connecter</string>
+    <string name="signUp">S\'inscrire</string>
+    <string name="signOut">Se déconnecter</string>
+
+    <!-- textes templates -->
+    <string name="welcome">Bienvenue {user} !</string>
+
+    <!-- menu user -->
+    <string name="my_activities">Les activités</string>
+    <string name="my_sessions">Mes séances</string>
+    <string name="my_account">Mon compte</string>
+
+    <!-- titles pages -->
+    <string name="all_users">Les utilisateurs</string>
+    <string name="all_activities">Les activités</string>
+    <string name="all_sessions">Les séances</string>
+
+    <string name="create_session">Créer une séance</string>
+    <string name="create_activity">Créer une activité</string>
+
+    <string name="update_account">Modifier mes informations</string>
+    <string name="update_session">Modifier une séance</string>
+    <string name="update_activity">Modifier une activité</string>
+
+    <!-- buttons communs pour formulaires -->
+    <string name="create_object">Créer</string>
+    <string name="update_object">Modifier</string>
+    <string name="cancel">Annuler</string>
+
+    <!-- formulaires auth -->
+    <string name="login">Pseudo :</string>
+    <string name="lastname">Nom :</string>
+    <string name="firstname">Prénom :</string>
+    <string name="passwd">Mot de passe :</string>
+    <string name="passwdConf">Confirmez le mot de passe :</string>
+
+    <!-- voir onclick -->
+    <string name="see_profile">Voir le profil</string>
+    <string name="see_activity">Voir l\'activité</string>
+    <string name="see_session">Voir la séance</string>
+    <string name="see_sessions">Voir les séances</string>
+    <string name="modify_session">Modifier la séance</string>
+
+    <!-- formulaires session -->
+    <string name="nom_session">Nom de la séance : </string>
+    <string name="date_session">Date de la séance :</string>
+    <string name="session_activity">Activité :</string>
+    <string name="user_sessions">Ses séances</string>
+
+    <!-- formulaires activity -->
+    <string name="nom_activity">Nom de l\'activité : </string>
+    <string name="date_activity">Date de l\'activité :</string>
+    <string name="properties_activity">Propriétés de l\'activité : </string>
+
+    <!-- properties -->
+    <string name="activity_string">Caractères</string>
+    <string name="activity_bool">Booléen </string>
+    <string name="activity_int">Entier </string>
+</resources>

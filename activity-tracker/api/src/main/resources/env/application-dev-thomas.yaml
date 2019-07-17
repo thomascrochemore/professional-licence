@@ -1,0 +1,8 @@
+app:
+    hibernate:
+        create: true
+        dialect: 'org.hibernate.dialect.MySQL5Dialect'
+        connection:
+            url: 'jdbc:mysql://localhost:8889/p52_project?useTimezone=true&serverTimezone=UTC'
+            username: root
+            password: root

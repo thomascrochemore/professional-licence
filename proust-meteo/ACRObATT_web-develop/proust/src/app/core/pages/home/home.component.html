@@ -1,0 +1,89 @@
+<header class="row">
+    <img src="../../../../assets/background.jpg" alt="Background">
+    <div class="logo-container">
+        <img src="../../../../assets/frog/logo_white.png" alt="Logo" class="logo">
+    </div>
+
+    <p class="descriptif_text">
+        M&eacute;t&eacute;o et comparatifs statistiques. Avec une grenouille en bonus.
+    </p>
+
+    <div class="button-header-container">
+        <button class="btn btn-primary btn-sm" (click)="nav(&apos;/signup&apos;);">
+            Inscription
+        </button>
+
+        <button class="btn btn-success about_button btn-sm" (click)="nav(&apos;/about&apos;)    ">
+            &Agrave; propos
+        </button>
+    </div>
+</header>
+
+<div class="clear"></div>
+
+<div class="section row">
+    <div class="col-sm-12 col-md-4 col-lg-4 home__card">
+    <span class="card-title">
+      Besoin d&apos;un topo rapide ?
+    </span>
+        <br>
+        <img class="frog_waterlily" src="../../../../assets/frog/frog_waterlily_composite.png">
+        <p>
+            Voici <strong>Marceau la grenouille !</strong>
+            <br>
+            En plus d&apos;&ecirc;tre trop mimi, il vous servira de guide et vous aidera &agrave; d&eacute;terminer
+            quelles
+            infos sont les plus
+            fiables pour organiser votre barbecue.
+        </p>
+        <p>
+            Pour les curieux, le CV de Marceau se trouve ci-dessous
+        </p>
+
+        <div class="col-sm-12 carousel-container">
+            <carousel class="carousel_bottom"></carousel>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 home__card">
+    <span class="card-title">
+      Quelles villes ?
+    </span>
+        <br>
+        <img class="frog_waterlily" src="../../../../assets/frog/frog_map.png">
+        <p>
+            Comme Marceau vient tout juste de commencer son aventure, il n&apos;a pas visiter tout le globe. Mais pas d&apos;inqui&eacute;tude
+            ! Marceau pourra bient&ocirc;t conqu&eacute;rir-pardon r&eacute;pertorier toutes les villes pris&eacute;es !
+        </p>
+        <p>
+            Impatient d&apos;avoir la m&eacute;t&eacute;o ? C&apos;est par ici !
+            <br>
+            <i>En bonus, on vous fournit un widget que vous pouvez ajouter &agrave; votre page web !</i>
+        </p>
+
+        <div class="col-sm-12 frugal-container">
+            <frugal-map *ngIf="map" class="frugal_map" (city_map)="changeCity($event)" [cities]="cities"></frugal-map>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4 home__card">
+    <span class="card-title">
+      Et les stats alors ?
+    </span>
+        <br>
+        <img class="frog_waterlily" src="../../../../assets/frog/frog_stats.png">
+        <p>
+            Marceau est une grenouille intelligente ! En plus de vous guider pour vos sorties
+            barbecue,
+            il vous donne aussi la manière dont il a tout calculé! C'est pas génial ça ?
+        </p>
+        <p>
+            Pour les curieux par ici les statistiques.
+            <br>
+            <i>On a même ajouté des graphiques, comme ci-dessous !</i>
+        </p>
+
+        <div class="col-sm-12 widget-container">
+            <widget class="widget_home" [city]="city_map"></widget>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
