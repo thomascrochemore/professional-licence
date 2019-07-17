@@ -3,11 +3,12 @@ Les projets réalisés dans le cadre de la LP CDED (Bac +3 en alternance) à l'I
 
 Chaque projet est décrit en détails (technologies, sujet, date) dans la partie "Projects" du dépôt GitHub.
 
-- Activity Tracker : projet de fin du premier semestre. 
+## SEMESTRE 1
 
-Application n-tiers avec API Rest JavaEE, client web React et client mobile Java (solution Android Studio).
+- Activity Tracker : projet 3-tiers du premier semestre. 
+
+## SEMESTRE 2
 
 - Proust Meteo : projet tuteuré du second semestre.
 
-Application n-tiers avec API Rest JavaEE, client web Angular et client mobile Angular Ionic (framework MVC permettant le développement mobile multi-plateforme).
 
