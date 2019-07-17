@@ -5,10 +5,10 @@ Chaque projet est décrit en détails (technologies, sujet, date) dans la partie
 
 ## SEMESTRE 1
 
-- Activity Tracker : projet 3-tiers du premier semestre. 
+- "Activity Tracker" : projet 3-tiers du premier semestre. 
 
 ## SEMESTRE 2
 
-- Proust Meteo : projet tuteuré du second semestre.
+- "Proust Meteo" : projet tuteuré du second semestre.
 
 
