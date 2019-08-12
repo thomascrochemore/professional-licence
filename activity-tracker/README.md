@@ -22,19 +22,19 @@ Arborescence du dépôt :
     
 Lien vers le client web react :
 
-    http://arch207.iutrs.unistra.fr/activity-tracker/#/ (obsolete)
+    http://arch207.iutrs.unistra.fr/activity-tracker/#/ (lien obsolete)
     
 Lien vers l'api :
 
-    http://arch208.iutrs.unistra.fr:8080/api/ (obsolete)
+    http://arch208.iutrs.unistra.fr:8080/api/ (lien obsolete)
 
 Lien vers la documentation RAML de l'api :
 
-    http://arch208.iutrs.unistra.fr/doc/ (obsolete)
+    http://arch208.iutrs.unistra.fr/doc/ (lien obsolete)
    
 Le dépôt contient un wiki décrivant le fonctionnement de l'application android et les choix de conception qui ont été faits :
 
-    https://git.unistra.fr/couty/P52_Couty_Crochemore/wikis/home (obsolete)
+    https://git.unistra.fr/couty/P52_C_C/wikis/home (lien obsolete)
     
 Le dépôt contient une documentation pour la partie react du projet :
 
