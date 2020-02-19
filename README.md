@@ -10,10 +10,10 @@ Each project is described in detail (technologies, subject, date) in the "Projec
 
 ## FIRST SEMESTER / PREMIER SEMESTRE
 
-- "Activity Tracker" : first semester 3-tiers project. *Projet 3-tiers du premier semestre.*
+- "Activity Tracker" : first semester fullstack web development project with JavaEE/React. *Projet développement web fullstack JavaEE/React du premier semestre.*
 
 ## SECOND SEMESTER / SECOND SEMESTRE
 
-- "Proust Meteo" : second semester tutored project. *Projet tuteuré du second semestre.*
+- "Proust Meteo" : second semester tutored project with JavaEE/Angular/Ionic. *Projet tuteuré du second semestre avec JavaEE/Angular/Ionic.*
 
 
